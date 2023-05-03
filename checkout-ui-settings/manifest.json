@@ -1,12 +1,13 @@
 {
   "name": "checkout-ui-settings",
   "vendor": "vtex",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "title": "Checkout UI Settings",
   "description": "Declare custom settings to be used by checkout ui",
   "builders": {
     "docs": "0.x",
-    "checkout-ui-custom": "0.x"
+    "checkout-ui-custom": "0.x",
+    "store":"0.x"
   },
   "scripts": {
     "prereleasy": "bash lint.sh"
