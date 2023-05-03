@@ -67,7 +67,6 @@
     "vtex.store-video": "1.x",
     "vtex.overlay-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "tfcuey.trustvox": "0.x",
     "tfcuey.checkout-ui-settings": "0.x"
   },
   "peerDependencies": {

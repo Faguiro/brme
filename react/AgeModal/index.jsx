@@ -26,7 +26,7 @@ const AgeModal = () => {
 
     useEffect(() => {
         
-        OpenPopup()
+        //OpenPopup()
     }, [])
     return (
         <div id="ModalBG" className="BackgroundComponentPopup">
