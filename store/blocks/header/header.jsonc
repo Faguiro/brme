@@ -51,7 +51,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "AgeModalComp",
+      //"AgeModalComp",
 
       "flex-layout.col#busca-desktop",
       "vtex.menu@2.x:menu#institutional"
@@ -127,7 +127,7 @@
 
 
       
-      "AgeModalComp",
+      //"AgeModalComp",
       "flex-layout.col#spacer",
       "menu-item#favoritos",
       "login",

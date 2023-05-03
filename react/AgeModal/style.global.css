@@ -1,3 +1,7 @@
+div#ModalBG {
+    display: none !important;
+}
+
 .BackgroundComponentPopup {
     position: fixed;
     width: 100vw;
