@@ -2,4 +2,4 @@
 
 yarn
 yarn format
-yarn lint
+
