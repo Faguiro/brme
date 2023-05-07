@@ -1677,7 +1677,7 @@
 :global(.vtex-add-to-cart-button-0-x-buttonText){background-color: #b48736;color:#fff!important;}
 
 
-  :global(.vtex-product-price-1-x-savings--summary){background: #8BC34A;  font-size: 12px;  font-weight: normal;border-radius: 1000px;align-items: center;display: flex;position: absolute; top: 0px; padding: 5px; right: 10px;color: #fff;}
+  :global(.vtex-product-price-1-x-savings--summary){background: #8BC34A;  font-size: 12px;  font-weight: normal;border-radius: 1000px;align-items: center;display: flex;position: absolute; top: -250px; padding: 5px; right: 10px;color: #fff;}
 
 :global(.vtex-store-components-3-x-newsletter){    margin-top: 55px;}
   :global(.vtex-store-components-3-x-newsletter)
