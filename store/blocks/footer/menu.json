@@ -11,7 +11,6 @@
       "menu-item#politicafooter",
       "menu-item#politicareenbolsofooter",
       "menu-item#trocas-e-devolucoesfooter"
-
     ]
   },
 
@@ -23,7 +22,6 @@
       "highlight": false,
       "blockClass": "tituloinstitucional",
       "itemProps": {
-       
         "tagTitle": "GRUPO BR-ME",
         "text": "GRUPO BR-ME"
       }
@@ -77,9 +75,6 @@
     }
   },
 
-
-
-
   "menu-item#politicareenbolsofooter": {
     "props": {
       "id": "menu-item-meuspedidos",
@@ -95,8 +90,6 @@
       }
     }
   },
-
-
 
   "menu-item#trocas-e-devolucoesfooter": {
     "props": {
@@ -114,11 +107,6 @@
     }
   },
 
-
-  
-
-
-
   "menu-item#politicafooter": {
     "props": {
       "id": "menu-item-meuspedidos",
@@ -134,15 +122,12 @@
       }
     }
   },
-  
- 
+
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#institucional-mobile"
-    ]
+    "children": ["menu-item#institucional-mobile"]
   },
 
   "menu-item#institucional-mobile": {
@@ -236,7 +221,4 @@
       }
     }
   }
-
-
-  
 }
