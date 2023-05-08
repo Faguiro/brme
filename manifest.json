@@ -68,7 +68,9 @@
     "vtex.overlay-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "tfcuey.checkout-ui-settings": "0.x",
-    "tfcuey.trustvox": "0.x"
+    "tfcuey.trustvox": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.pixel-interfaces": "1.x"
   },
   "peerDependencies": {
     "vtexeurope.minicart-freeshipping-bar": "1.x"
