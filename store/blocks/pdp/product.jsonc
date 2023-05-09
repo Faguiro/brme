@@ -9,7 +9,7 @@
 
      "flex-layout.row#product",
      "flex-layout.row#productcomite",
-
+     //"product-rating-inline.ratrustvox",
       "product-reviews",
       "shelf.relatedProducts",
       "flex-layout.row#buy-together",
@@ -327,9 +327,9 @@
     },
     "children": [
       "flex-layout.row#product-name",
-     // "product-rating-inline",
+      "product-rating-summary.ratrustvox",
 
-"product-reviews",
+      //  "product-reviews",
 
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
