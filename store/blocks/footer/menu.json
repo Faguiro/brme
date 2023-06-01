@@ -61,7 +61,7 @@
 
   "menu-item#faqfooter": {
     "props": {
-      "id": "menu-item-meuspedidos",
+      "id": "menu-item-meuspedidos1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -77,7 +77,7 @@
 
   "menu-item#politicareenbolsofooter": {
     "props": {
-      "id": "menu-item-meuspedidos",
+      "id": "menu-item-meuspedidos2",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -93,7 +93,7 @@
 
   "menu-item#trocas-e-devolucoesfooter": {
     "props": {
-      "id": "menu-item-meuspedidos",
+      "id": "menu-item-meuspedidos3",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -109,7 +109,7 @@
 
   "menu-item#politicafooter": {
     "props": {
-      "id": "menu-item-meuspedidos",
+      "id": "menu-item-meuspedidos4",
       "type": "custom",
       "iconId": null,
       "highlight": false,

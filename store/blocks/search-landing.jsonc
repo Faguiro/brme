@@ -2,7 +2,7 @@
   "store.custom#landing": {
     "blocks": [
       "responsive-layout.desktop",
-      "responsive-layout.phone",
+      "responsive-layout.phone#lp",
       "flex-layout.row#titulocolecaobuscapersonalizada",
       "search-result-layout.customQuery"
     ]
@@ -11,21 +11,21 @@
 
 
   "responsive-layout.desktop": {
-    "children": ["image#desktop"]
+    "children": ["image#desktop-lp"]
   },  
 
-  "responsive-layout.phone": {
-    "children": ["image#phone"]
+  "responsive-layout.phone#lp": {
+    "children": ["image#phone-lp"]
   },
 
-  "image#desktop": {
+  "image#desktop-lp": {
     "props": {
       "minWidth": "100%",
       "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/644b3e8b-dad1-4999-bdfb-5ae607791fdd___907584079c778f45d3fc4f36252f9976.png"
     }
   },
 
-  "image#phone": {
+  "image#phone-lp": {
     "props": {
       "minWidth": "100%",
       "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/e8ebfdbb-769c-4c6c-9381-753622a01b6d___61d99d587d2acbed4ce93659ce625d94.png"
@@ -36,13 +36,13 @@
 
   "flex-layout.row#titulocolecaobuscapersonalizada": {
     "children": [
-      "rich-text#colecao-title"
+      "rich-text#colecao-title-lp"
     ],
     "props": {
       "blockClass": "titulo-nome-colecao-busca-personalizada"
     }
   },
-  "rich-text#colecao-title": {
+  "rich-text#colecao-title-lp": {
     "props": {
       "text": "Nome da coleção",
       "blockClass": "titulo-nome-colecao"
@@ -59,12 +59,12 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop",
+      "search-result-layout.desktop#lp",
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop": {
+  "search-result-layout.desktop#lp": {
     "children": [
       "breadcrumb.search",
       "search-title.v2",
@@ -86,11 +86,11 @@
   },
   "flex-layout.row#results": {
     "children": [
-      "flex-layout.col#filter",
+      "flex-layout.col#filter-lp",
       "flex-layout.col#search"
     ]
   },
-  "flex-layout.col#filter": {
+  "flex-layout.col#filter-lp": {
     "props": {
       "width": "20%"
     },
@@ -100,10 +100,10 @@
   },
   "flex-layout.col#search": {
     "children": [
-      "search-content"
+      "search-content#lp"
     ]
   },
-  "search-content": {
+  "search-content#lp": {
     "blocks": [
       "gallery",
       "not-found"

@@ -4110,7 +4110,7 @@
 
   "menu-item#category-presentes": {
     "props": {
-      "id": "menu-item-category-vinhos",
+      "id": "menu-item-category-presentes",
       "blockClass": "presentes",
       "type": "custom",
       "iconId": null,

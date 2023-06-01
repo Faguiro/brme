@@ -1090,8 +1090,9 @@
   },
   "info-card#azeite": {
     "props": {
+      "width": 100,
       "imageUrl": "/arquivos/azeites-para-crudos-io-v2.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Azeites \n para crudos",
       "blockClass": "bloco-editoriais",
@@ -1102,7 +1103,7 @@
   "info-card#vinhos1": {
     "props": {
       "imageUrl": "/arquivos/vinhos-para-tomar-gelado-io-v2.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Vinhos para tomar gelado",
       "blockClass": "bloco-editoriais",
@@ -1113,7 +1114,7 @@
   "info-card#azeitesparacrudosdecarnes": {
     "props": {
       "imageUrl": "/arquivos/Banner-Tartar.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Azeites para crudos de carne",
       "blockClass": "bloco-editoriais",
@@ -1124,7 +1125,7 @@
   "info-card#tonicas1": {
     "props": {
       "imageUrl": "/arquivos/tonicas-e-xaropes-io-v2.png",
-      //"isFullModeStyle": true,
+      "width": 100, "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Tônicas e xaropes para coqueteis",
       "blockClass": "bloco-editoriais",
@@ -1135,18 +1136,19 @@
   "info-card#cachacacaipirinha": {
     "props": {
       "imageUrl": "/arquivos/cachaca-para-caipirinha.png?v=63780530126800000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Cachaça para caipirinha",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
+      
     }
   },
   "info-card#cachacacentenarias": {
     "props": {
       "imageUrl": "/arquivos/cachacas-centenarias.png?v=63780530126800000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Cachaças centenárias",
       "blockClass": "bloco-editoriais",
@@ -1157,7 +1159,7 @@
   "info-card#cafeacademia": {
     "props": {
       "imageUrl": "/arquivos/cafe_academia.png?v=63780530126800000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Café academia",
       "blockClass": "bloco-editoriais",
@@ -1168,7 +1170,7 @@
   "info-card#chocolate": {
     "props": {
       "imageUrl": "/arquivos/chocolate-cafe.png?v=63780530126800000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Chocolate",
       "blockClass": "bloco-editoriais",
@@ -1179,7 +1181,7 @@
   "info-card#churrasco": {
     "props": {
       "imageUrl": "/arquivos/churrasco.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Para o churrasco",
       "blockClass": "bloco-editoriais",
@@ -1190,7 +1192,7 @@
   "info-card#cuidadosparaela": {
     "props": {
       "imageUrl": "/arquivos/cuidados-para-ela.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Cuidados para ela",
       "blockClass": "bloco-editoriais",
@@ -1201,7 +1203,7 @@
   "info-card#cuidadosparaele": {
     "props": {
       "imageUrl": "/arquivos/cuidados-para-ele.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Cuidados para ele",
       "blockClass": "bloco-editoriais",
@@ -1212,7 +1214,7 @@
   "info-card#curiosos": {
     "props": {
       "imageUrl": "/arquivos/curiosos.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Vinhos para curiosos",
       "blockClass": "bloco-editoriais",
@@ -1223,7 +1225,7 @@
   "info-card#destiladostropicais": {
     "props": {
       "imageUrl": "/arquivos/destilados-tropicais.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Destilados tropicais",
       "blockClass": "bloco-editoriais",
@@ -1234,7 +1236,7 @@
   "info-card#gin-negroni": {
     "props": {
       "imageUrl": "/arquivos/gin-negroni.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Gin Negroni",
       "blockClass": "bloco-editoriais",
@@ -1245,7 +1247,7 @@
   "info-card#happy-hour": {
     "props": {
       "imageUrl": "/arquivos/happy-hour.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Para Happy Hour",
       "blockClass": "bloco-editoriais",
@@ -1256,7 +1258,7 @@
   "info-card#hora-do-brunch": {
     "props": {
       "imageUrl": "/arquivos/hora-do-brunch.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Hora do brunch",
       "blockClass": "bloco-editoriais",
@@ -1267,7 +1269,7 @@
   "info-card#ingredientesbrasileiros": {
     "props": {
       "imageUrl": "/arquivos/ingredientes-brasileiros2.png?v=637643186868000000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Ingredientes brasileiros",
       "blockClass": "bloco-editoriais",
@@ -1278,7 +1280,7 @@
   "info-card#maratonarseries": {
     "props": {
       "imageUrl": "/arquivos/maratonar-series.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Para maratonar",
       "blockClass": "bloco-editoriais",
@@ -1289,7 +1291,7 @@
   "info-card#napraia": {
     "props": {
       "imageUrl": "/arquivos/na-praia.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Na praia",
       "blockClass": "bloco-editoriais",
@@ -1300,7 +1302,7 @@
   "info-card#negroni": {
     "props": {
       "imageUrl": "/arquivos/negroni-brasileiro.png?v=637643186868000000",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Negroni 100% brasileiro",
       "blockClass": "bloco-editoriais",
@@ -1311,7 +1313,7 @@
   "info-card#peixe": {
     "props": {
       "imageUrl": "/arquivos/peixe.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Para peixes",
       "blockClass": "bloco-editoriais",
@@ -1322,7 +1324,7 @@
   "info-card#rabodegalo": {
     "props": {
       "imageUrl": "/arquivos/rabo-de-galo.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Rabo de galo",
       "blockClass": "bloco-editoriais",
@@ -1333,7 +1335,7 @@
   "info-card#vinhogelado": {
     "props": {
       "imageUrl": "/arquivos/vinho-gelado.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Vinho gelado",
       "blockClass": "bloco-editoriais",
@@ -1344,7 +1346,7 @@
   "info-card#vinhoimpressionar": {
     "props": {
       "imageUrl": "/arquivos/vinho-impressionar.png",
-      //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Vinhos para impressionar",
       "blockClass": "bloco-editoriais",
@@ -1397,6 +1399,8 @@
       "maxWidth": "100%"
     }
   },
+
+
   "rich-text#shelf-title-ofertas": {
     "props": {
       "text": "## Ofertas:",
