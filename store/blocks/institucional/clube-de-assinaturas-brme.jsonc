@@ -1,7 +1,7 @@
 {
   "store.custom#assinaturas": {
     "blocks": [
-      "responsive-layout.desktop#clube",
+      "responsive-layout.desktop#lp",
       "responsive-layout.phone",
       "flex-layout.row#assinaturas-topo",
       //  "flex-layout.row#assinaturas-beneficios",
@@ -17,7 +17,7 @@
     ]
   },
 
-  "responsive-layout.desktop#clube": {
+  "responsive-layout.desktop#lp": {
     "children": ["image#desktop"]
   },  
 
@@ -28,7 +28,7 @@
   "image#desktop": {
     "props": {
       "minWidth": "100%",
-      "src": "://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/73e3c1c5-6173-469e-95f8-546e2484ef9e___83736b2dc44de9d0a58bc9f431a6eace.png"
+      "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/73e3c1c5-6173-469e-95f8-546e2484ef9e___83736b2dc44de9d0a58bc9f431a6eace.png"
     }
   },
 

@@ -6,18 +6,15 @@
       "slider-layout#slider-categorias-brme-2033",
       //"flex-layout.row#informativos",
       //"flex-layout.row#informativos-mobile",
-     
       "rich-text#shelf-title-lancamentos",
       //"flex-layout.row#shelfprateleiralancamentos",
       "flex-layout.row#shelfprateleiranovidadeshome",
       "flex-layout.row#shelfprateleiranovidadeshome2",
-  
       "flex-layout.row#bannercurso",
       "flex-layout.row#bannercursomobile",
       //"list-context.image-list#slider-produtos-home",
       //"rich-text#shelf-title-maisvendidos",
       //"tab-layout#colecoesmaisvendidos",
-      
       "rich-text#shelf-title-editoriais",
       "slider-layout#editoriais",
       "rich-text#shelf-title-ofertas",
@@ -25,17 +22,18 @@
       //"slider-layout#categoriasbaixo"
     ]
   },
-
-
-
-
-
   "flex-layout.row#shelfprateleiralancamentos": {
-    "children": ["list-context.product-list#prateleiralancamentos"]
+    "children": [
+      "list-context.product-list#prateleiralancamentos"
+    ]
   },
   "list-context.product-list#prateleiralancamentos": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiralancamentos#home"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiralancamentos#home"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "1277"
@@ -44,7 +42,7 @@
   "slider-layout#prateleiralancamentos#home": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
@@ -53,18 +51,20 @@
       "blockClass": "shelf"
     }
   },
-
-
-
-
-
-  
   "slider-layout#slider-categorias-brme-2033": {
-    "children": ["info-card#vinhos-cat-2023", "info-card#cafes-cat-2023", "info-card#destilados-cat-2023", "info-card#azeites-cat-2023", "info-card#saude-cat-2023","info-card#chocolate-cat-2023","info-card#barris-cat-2023"],
+    "children": [
+      "info-card#vinhos-cat-2023",
+      "info-card#cafes-cat-2023",
+      "info-card#destilados-cat-2023",
+      "info-card#azeites-cat-2023",
+      "info-card#saude-cat-2023",
+      "info-card#chocolate-cat-2023",
+      "info-card#barris-cat-2023"
+    ],
     "props": {
       "blockClass": "categorias-infocard-home-2023-area",
       "itemsPerPage": {
-        "desktop":7,
+        "desktop": 7,
         "tablet": 4,
         "phone": 4
       },
@@ -72,16 +72,13 @@
         "timeout": 5000,
         "stopOnHover": false
       },
-
-"centerMode": {
-  "desktop":"disabled",
-  "tablet": "to-the-left",
- "phone": "to-the-left"
-}
-
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      }
     }
   },
-
   "info-card#vinhos-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-vinho-brme-2023.png",
@@ -92,7 +89,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
   "info-card#cafes-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-cafe-brme-2023.png",
@@ -103,7 +99,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
   "info-card#destilados-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-destilados-brme-2023.png",
@@ -114,7 +109,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
   "info-card#azeites-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-azeite-brme-2023.png",
@@ -125,8 +119,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
-  
   "info-card#saude-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-saude-brme-2023.png",
@@ -137,7 +129,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
   "info-card#chocolate-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-barra-de-chocolate-2023-home.png",
@@ -148,8 +139,6 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
-
   "info-card#barris-cat-2023": {
     "props": {
       "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icones-dormas-e-barris.png",
@@ -160,17 +149,21 @@
       "blockClass": "categorias-infocard-home-2023"
     }
   },
-
-
-
   "flex-layout.row#shelfprateleiranovidadeshome": {
-    "children": ["list-context.product-list#prateleiranovidadeshome"],
+    "children": [
+      "list-context.product-list#prateleiranovidadeshome"
+    ],
     "props": {
-      "blockClass": "prateleira-novidades-home"}
+      "blockClass": "prateleira-novidades-home"
+    }
   },
   "list-context.product-list#prateleiranovidadeshome": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiranovidadeshome"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiranovidadeshome"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "1277"
@@ -179,33 +172,32 @@
   "slider-layout#prateleiranovidadeshome": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
-
       "centerMode": {
-        "desktop":"disabled",
+        "desktop": "disabled",
         "tablet": "disabled",
         "phone": "disabled"
       },
-
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
-
-
-
-
   "flex-layout.row#shelfprateleiranovidadeshome2": {
-    "children": ["list-context.product-list#prateleiranovidadeshome2"]
+    "children": [
+      "list-context.product-list#prateleiranovidadeshome2"
+    ]
   },
   "list-context.product-list#prateleiranovidadeshome2": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiranovidadeshome2"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiranovidadeshome2"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "1302"
@@ -214,7 +206,7 @@
   "slider-layout#prateleiranovidadeshome2": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
@@ -223,416 +215,329 @@
       "blockClass": "shelf"
     }
   },
-
-
-
-
-
-
-
-
-
- 
-
-  "flex-layout.row#informativos":{
+  "flex-layout.row#informativos": {
     "props": {
       "blockClass": "bloco-home-informativos"
     },
-
     "children": [
       "flex-layout.col#informativos-entrega",
       "flex-layout.col#informativos-parcelamento",
       "flex-layout.col#informativos-seguranca",
       "flex-layout.col#informativos-desconto",
       "flex-layout.col#informativos-investimento"
- 
     ]
   },
-
-  "flex-layout.col#informativos-entrega":{
+  "flex-layout.col#informativos-entrega": {
     "props": {
       "blockClass": "bloco-home-informativos-entrega"
     },
-
     "children": [
       "flex-layout.col#informativos-entrega-cont"
- 
     ]
   },
-
-  "flex-layout.col#informativos-entrega-cont":{
+  "flex-layout.col#informativos-entrega-cont": {
     "props": {
       "blockClass": "bloco-home-informativos-entrega"
     },
-
     "children": [
-      "flex-layout.row#informativos-entrega-image", 
+      "flex-layout.row#informativos-entrega-image",
       "flex-layout.row#informativos-entrega-text"
- 
     ]
   },
-
-
-
-
-  "flex-layout.row#informativos-entrega-image":{
+  "flex-layout.row#informativos-entrega-image": {
     "props": {
       "blockClass": "bloco-home-informativos-entrega"
     },
-
     "children": [
       "image#informativos-home-entrega"
-    
- 
     ]
   },
-"image#informativos-home-entrega": {
-  "props": {
-    "src": "://tfcuey.vteximg.com.br/arquivos/icone-entrega.png?v=637805301268000000",
-    "maxWidth": "100%"
-  }
-},
-"flex-layout.row#informativos-entrega-text":{
-  "props": {
-    "blockClass": "bloco-home-informativos-entrega"
+  "image#informativos-home-entrega": {
+    "props": {
+      "src": "://tfcuey.vteximg.com.br/arquivos/icone-entrega.png?v=637805301268000000",
+      "maxWidth": "100%"
+    }
   },
-  "children": [
-    "rich-text#entrega"
-  ]
-},
-"rich-text#entrega": {
-  "props": {
-    "text": "Entregamos em todo \n o Brasil",
-    "blockClass": "texto-informativo-entrega"
-  }
-},
-
-"flex-layout.col#informativos-parcelamento":{
-  "props": {
-    "blockClass": "bloco-home-informativos-parcelamento"
+  "flex-layout.row#informativos-entrega-text": {
+    "props": {
+      "blockClass": "bloco-home-informativos-entrega"
+    },
+    "children": [
+      "rich-text#entrega"
+    ]
   },
-
-  "children": [
-    "flex-layout.col#informativos-parcelamento-cont"
-
-  ]
-},
-
-
-"flex-layout.col#informativos-parcelamento-cont":{
-  "props": {
-    "blockClass": "bloco-home-informativos-parcelamento"
+  "rich-text#entrega": {
+    "props": {
+      "text": "Entregamos em todo \n o Brasil",
+      "blockClass": "texto-informativo-entrega"
+    }
   },
-
-  "children": [
-    "flex-layout.row#informativos-parcelamento-image", 
-    "flex-layout.row#informativos-parcelamento-text"
-
-  ]
-},
-
-"flex-layout.row#informativos-parcelamento-image":{
-  "props": {
-    "blockClass": "bloco-home-informativos-parcelamento"
+  "flex-layout.col#informativos-parcelamento": {
+    "props": {
+      "blockClass": "bloco-home-informativos-parcelamento"
+    },
+    "children": [
+      "flex-layout.col#informativos-parcelamento-cont"
+    ]
   },
-
-  "children": [
-    "image#informativos-home-parcelamento"
-  ]
-},
-"image#informativos-home-parcelamento": {
-"props": {
-  "src": "https://tfcuey.vteximg.com.br/arquivos/icone-parcelamento.png?v=637805301268000000",
-  "maxWidth": "100%"
-}
-},
-"flex-layout.row#informativos-parcelamento-text":{
-"props": {
-  "blockClass": "bloco-home-informativos-parcelamento"
-},
-"children": [
-  "rich-text#parcelamento"
-]
-},
-"rich-text#parcelamento": {
-"props": {
-  "text": "Até 6x sem juros.",
-  "blockClass": "texto-informativo-parcelamento"
-}
-},
-
-"flex-layout.col#informativos-seguranca":{
-  "props": {
-    "blockClass": "bloco-home-informativos-seguranca"
+  "flex-layout.col#informativos-parcelamento-cont": {
+    "props": {
+      "blockClass": "bloco-home-informativos-parcelamento"
+    },
+    "children": [
+      "flex-layout.row#informativos-parcelamento-image",
+      "flex-layout.row#informativos-parcelamento-text"
+    ]
   },
-
-  "children": [
-    "flex-layout.col#informativos-seguranca-cont"
-
-  ]
-},
-
-"flex-layout.col#informativos-seguranca-cont":{
-  "props": {
-    "blockClass": "bloco-home-informativos-seguranca"
+  "flex-layout.row#informativos-parcelamento-image": {
+    "props": {
+      "blockClass": "bloco-home-informativos-parcelamento"
+    },
+    "children": [
+      "image#informativos-home-parcelamento"
+    ]
   },
-
-  "children": [
-    "flex-layout.row#informativos-seguranca-image", 
-    "flex-layout.row#informativos-seguranca-text"
-
-  ]
-},
-
-"flex-layout.row#informativos-seguranca-image":{
-  "props": {
-    "blockClass": "bloco-home-informativos-seguranca"
+  "image#informativos-home-parcelamento": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/icone-parcelamento.png?v=637805301268000000",
+      "maxWidth": "100%"
+    }
   },
-
-  "children": [
-    "image#informativos-home-seguranca"
-  ]
-},
-"image#informativos-home-seguranca": {
-"props": {
-  "src": "https://tfcuey.vteximg.com.br/arquivos/icone-seguranca.png?v=637805301268000000",
-  "maxWidth": "100%"
-}
-},
-"flex-layout.row#informativos-seguranca-text":{
-"props": {
-  "blockClass": "bloco-home-informativos-seguranca"
-},
-"children": [
-  "rich-text#seguranca"
-]
-},
-"rich-text#seguranca": {
-"props": {
-  "text": "Segurança do ínicio ao fim.",
-  "blockClass": "texto-informativo-seguranca"
-}
-},
-
-"flex-layout.col#informativos-desconto":{
-  "props": {
-    "blockClass": "bloco-home-informativos-desconto"
+  "flex-layout.row#informativos-parcelamento-text": {
+    "props": {
+      "blockClass": "bloco-home-informativos-parcelamento"
+    },
+    "children": [
+      "rich-text#parcelamento"
+    ]
   },
-
-  "children": [
-    "flex-layout.col#informativos-desconto-cont"
-
-  ]
-},
-
-"flex-layout.col#informativos-desconto-cont":{
-  "props": {
-    "blockClass": "bloco-home-informativos-desconto"
+  "rich-text#parcelamento": {
+    "props": {
+      "text": "Até 6x sem juros.",
+      "blockClass": "texto-informativo-parcelamento"
+    }
   },
-
-  "children": [
-    "flex-layout.row#informativos-desconto-image", 
-    "flex-layout.row#informativos-desconto-text"
-
-  ]
-},
-
-"flex-layout.row#informativos-desconto-image":{
-  "props": {
-    "blockClass": "bloco-home-informativos-desconto"
+  "flex-layout.col#informativos-seguranca": {
+    "props": {
+      "blockClass": "bloco-home-informativos-seguranca"
+    },
+    "children": [
+      "flex-layout.col#informativos-seguranca-cont"
+    ]
   },
-
-  "children": [
-    "image#informativos-home-desconto"
-
-  ]
-},
-"image#informativos-home-desconto": {
-"props": {
-  "src": "https://tfcuey.vteximg.com.br/arquivos/icone-desconto-pix.png?v=637805301268000000",
-  "maxWidth": "100%"
-}
-},
-"flex-layout.row#informativos-desconto-text":{
-"props": {
-  "blockClass": "bloco-home-informativos-desconto"
-},
-"children": [
-  "rich-text#desconto"
-]
-},
-"rich-text#desconto": {
-"props": {
-  "text": "5% nas compras por \n boleto  e por Pix",
-  "blockClass": "texto-informativo-seguranca"
-}
-},
-
-"flex-layout.col#informativos-investimento":{
-  "props": {
-    "blockClass": "bloco-home-informativos-investimento"
+  "flex-layout.col#informativos-seguranca-cont": {
+    "props": {
+      "blockClass": "bloco-home-informativos-seguranca"
+    },
+    "children": [
+      "flex-layout.row#informativos-seguranca-image",
+      "flex-layout.row#informativos-seguranca-text"
+    ]
   },
-
-  "children": [
-    "flex-layout.col#informativos-investimento-cont"
-
-  ]
-},
-
-
-"flex-layout.col#informativos-investimento-cont":{
-  "props": {
-    "blockClass": "bloco-home-informativos-investimento"
+  "flex-layout.row#informativos-seguranca-image": {
+    "props": {
+      "blockClass": "bloco-home-informativos-seguranca"
+    },
+    "children": [
+      "image#informativos-home-seguranca"
+    ]
   },
-
-  "children": [
-    "flex-layout.row#informativos-investimento-image", 
-    "flex-layout.row#informativos-investimento-text"
-
-  ]
-},
-
-"flex-layout.row#informativos-investimento-image":{
-  "props": {
-    "blockClass": "bloco-home-informativos-investimento"
+  "image#informativos-home-seguranca": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/icone-seguranca.png?v=637805301268000000",
+      "maxWidth": "100%"
+    }
   },
-
-  "children": [
-    "image#informativos-home-investimento"
-
-  ]
-},
-"image#informativos-home-investimento": {
-"props": {
-  "src": "https://tfcuey.vteximg.com.br/arquivos/icone-investimento.png?v=637805301268000000",
-  "maxWidth": "100%"
-}
-},
-"flex-layout.row#informativos-investimento-text":{
-"props": {
-  "blockClass": "bloco-home-informativos-investimento"
-},
-"children": [
-  "rich-text#investimento"
-]
-},
-"rich-text#investimento": {
-"props": {
-  "text": "A BRME investe no desenvolvimento do mercado de produtos e serviços brasileiros.",
-  "blockClass": "texto-informativo-seguranca"
-}
-},
-
-
-
-
-
-
-"flex-layout.row#informativos-mobile":{
-  "props": {
-    "blockClass": "bloco-home-informativos-mobile"
+  "flex-layout.row#informativos-seguranca-text": {
+    "props": {
+      "blockClass": "bloco-home-informativos-seguranca"
+    },
+    "children": [
+      "rich-text#seguranca"
+    ]
   },
-
-  "children": [
-    "flex-layout.row#informativos-mobile-coluna-cima",
-    "flex-layout.row#informativos-mobile-coluna-baixo"
-
-  ]
-},
-
-
-
-"flex-layout.row#informativos-mobile-coluna-cima":{
-  "props": {
-    "blockClass": "bloco-home-informativos-mobile-bloco-1"
+  "rich-text#seguranca": {
+    "props": {
+      "text": "Segurança do ínicio ao fim.",
+      "blockClass": "texto-informativo-seguranca"
+    }
   },
-
-  "children": [
-    "flex-layout.col#informativos-entrega",
-    "flex-layout.col#informativos-parcelamento",
-    "flex-layout.col#informativos-seguranca"
-  ]
-},
-
-"flex-layout.row#informativos-mobile-coluna-baixo":{
-  "props": {
-    "blockClass": "bloco-home-informativos-mobile-bloco-2"
+  "flex-layout.col#informativos-desconto": {
+    "props": {
+      "blockClass": "bloco-home-informativos-desconto"
+    },
+    "children": [
+      "flex-layout.col#informativos-desconto-cont"
+    ]
   },
-
-  "children": [
-    "flex-layout.col#informativos-desconto",
-    "flex-layout.col#informativos-investimento"
-  ]
-},
-"flex-layout.row#bannercurso":{
-  "props": {
-    "blockClass": "bloco-home-banner-curso"
+  "flex-layout.col#informativos-desconto-cont": {
+    "props": {
+      "blockClass": "bloco-home-informativos-desconto"
+    },
+    "children": [
+      "flex-layout.row#informativos-desconto-image",
+      "flex-layout.row#informativos-desconto-text"
+    ]
   },
-
-  "children": [
-    "image#bannercurso"
-  ]
-},
-
-"image#bannercurso": {
-  "props": {
-    "src": "https://tfcuey.vteximg.com.br/arquivos/banner-curso-io-v2.png?v=637805301268000000",
-    "link": "/sobre-a-brme",
-    "maxWidth": "100%",
-    "blockClass": "bloco-home-banner-curso-desk"
-  }
+  "flex-layout.row#informativos-desconto-image": {
+    "props": {
+      "blockClass": "bloco-home-informativos-desconto"
+    },
+    "children": [
+      "image#informativos-home-desconto"
+    ]
   },
-"flex-layout.row#bannercursomobile":{
-  "props": {
-    "blockClass": "bloco-home-banner-curso-mobile"
+  "image#informativos-home-desconto": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/icone-desconto-pix.png?v=637805301268000000",
+      "maxWidth": "100%"
+    }
   },
-
-  "children": [
-    "image#bannercursomobile2023"
-
-  ]
-},
-
-"image#bannercursomobile2023": {
-  "props": {
-    "src": "https://tfcuey.vteximg.com.br/arquivos/Banner-curso-mobile-2023.png?v=637805301268000000",
-    "link": "/sobre-a-brme",
-    "maxWidth": "100%",
-    "blockClass": "bloco-home-imagem-banner-curso-mobile"
-  }
+  "flex-layout.row#informativos-desconto-text": {
+    "props": {
+      "blockClass": "bloco-home-informativos-desconto"
+    },
+    "children": [
+      "rich-text#desconto"
+    ]
   },
-  
+  "rich-text#desconto": {
+    "props": {
+      "text": "5% nas compras por \n boleto  e por Pix",
+      "blockClass": "texto-informativo-seguranca"
+    }
+  },
+  "flex-layout.col#informativos-investimento": {
+    "props": {
+      "blockClass": "bloco-home-informativos-investimento"
+    },
+    "children": [
+      "flex-layout.col#informativos-investimento-cont"
+    ]
+  },
+  "flex-layout.col#informativos-investimento-cont": {
+    "props": {
+      "blockClass": "bloco-home-informativos-investimento"
+    },
+    "children": [
+      "flex-layout.row#informativos-investimento-image",
+      "flex-layout.row#informativos-investimento-text"
+    ]
+  },
+  "flex-layout.row#informativos-investimento-image": {
+    "props": {
+      "blockClass": "bloco-home-informativos-investimento"
+    },
+    "children": [
+      "image#informativos-home-investimento"
+    ]
+  },
+  "image#informativos-home-investimento": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/icone-investimento.png?v=637805301268000000",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.row#informativos-investimento-text": {
+    "props": {
+      "blockClass": "bloco-home-informativos-investimento"
+    },
+    "children": [
+      "rich-text#investimento"
+    ]
+  },
+  "rich-text#investimento": {
+    "props": {
+      "text": "A BRME investe no desenvolvimento do mercado de produtos e serviços brasileiros.",
+      "blockClass": "texto-informativo-seguranca"
+    }
+  },
+  "flex-layout.row#informativos-mobile": {
+    "props": {
+      "blockClass": "bloco-home-informativos-mobile"
+    },
+    "children": [
+      "flex-layout.row#informativos-mobile-coluna-cima",
+      "flex-layout.row#informativos-mobile-coluna-baixo"
+    ]
+  },
+  "flex-layout.row#informativos-mobile-coluna-cima": {
+    "props": {
+      "blockClass": "bloco-home-informativos-mobile-bloco-1"
+    },
+    "children": [
+      "flex-layout.col#informativos-entrega",
+      "flex-layout.col#informativos-parcelamento",
+      "flex-layout.col#informativos-seguranca"
+    ]
+  },
+  "flex-layout.row#informativos-mobile-coluna-baixo": {
+    "props": {
+      "blockClass": "bloco-home-informativos-mobile-bloco-2"
+    },
+    "children": [
+      "flex-layout.col#informativos-desconto",
+      "flex-layout.col#informativos-investimento"
+    ]
+  },
+  "flex-layout.row#bannercurso": {
+    "props": {
+      "blockClass": "bloco-home-banner-curso"
+    },
+    "children": [
+      "image#bannercurso"
+    ]
+  },
+  "image#bannercurso": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/banner-curso-io-v2.png?v=637805301268000000",
+      "link": "/sobre-a-brme",
+      "maxWidth": "100%",
+      "blockClass": "bloco-home-banner-curso-desk"
+    }
+  },
+  "flex-layout.row#bannercursomobile": {
+    "props": {
+      "blockClass": "bloco-home-banner-curso-mobile"
+    },
+    "children": [
+      "image#bannercursomobile2023"
+    ]
+  },
+  "image#bannercursomobile2023": {
+    "props": {
+      "src": "https://tfcuey.vteximg.com.br/arquivos/Banner-curso-mobile-2023.png?v=637805301268000000",
+      "link": "/sobre-a-brme",
+      "maxWidth": "100%",
+      "blockClass": "bloco-home-imagem-banner-curso-mobile"
+    }
+  },
   "rich-text#shelf-title-lancamentos": {
     "props": {
       "text": "## Selecionados para você:",
       "blockClass": "shelfTitle"
     }
   },
-
   "slider-layout#produtos-em-lancamentos": {
-
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 4,
         "phone": 1
       },
-
-      "autoplay":{
-        "timeout":5000,
-        "stopOnHover":true
-
-     },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
   "slider-layout#lancamentos": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 1
       },
@@ -641,20 +546,24 @@
       "blockClass": "shelf"
     }
   },
-
   "rich-text#shelf-title-maisvendidos": {
     "props": {
       "text": "## Receba ofertas exclusivas de verão:",
       "blockClass": "shelfTitle"
     }
   },
-
   "flex-layout.row#shelfmaisvendidos": {
-    "children": ["list-context.product-list#maisvendidos"]
+    "children": [
+      "list-context.product-list#maisvendidos"
+    ]
   },
   "list-context.product-list#maisvendidos": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#maisvendidos"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidos"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "137"
@@ -663,7 +572,7 @@
   "slider-layout#maisvendidos": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
@@ -672,373 +581,302 @@
       "blockClass": "shelf"
     }
   },
-
-
-
-
-
-
-
-
-
-"tab-layout#colecoesmaisvendidos": {
-"children": [
-  "tab-list#home",
-  "tab-content#home"
-],
-"props": {
-  "blockClass": "home",
-  "defaultActiveTabId": "home1"
-}
-},
-"tab-list#home": {
-"children": [
-  "tab-list.item#home1",
-  "tab-list.item#home2",
-  "tab-list.item#home3",
-  "tab-list.item#home4",
-  "tab-list.item#home5",
-  "tab-list.item#home6"
-]
-},
-"tab-list.item#home1": {
-"props": {
-  "tabId": "home1",
-  "label": "Azeites",
-  "defaultActiveTab": true
-}
-},
-"tab-list.item#home2": {
-"props": {
-  "tabId": "home2",
-  "label": "Cafés"
-}
-},
-"tab-list.item#home3": {
-  "props": {
-    "tabId": "home3",
-    "label": "Chocolates"
-  }
+  "tab-layout#colecoesmaisvendidos": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3",
+      "tab-list.item#home4",
+      "tab-list.item#home5",
+      "tab-list.item#home6"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "Azeites",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "Cafés"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Chocolates"
+    }
   },
   "tab-list.item#home4": {
     "props": {
       "tabId": "home4",
       "label": "Destilados"
     }
-    },
-    "tab-list.item#home5": {
-      "props": {
-        "tabId": "home5",
-        "label": "Saúde e Beleza"
-      }
+  },
+  "tab-list.item#home5": {
+    "props": {
+      "tabId": "home5",
+      "label": "Saúde e Beleza"
+    }
+  },
+  "tab-list.item#home6": {
+    "props": {
+      "tabId": "home6",
+      "label": "Vinhos"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2",
+      "tab-content.item#home3",
+      "tab-content.item#home4",
+      "tab-content.item#home5",
+      "tab-content.item#home6"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidosazeites"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidoscafes"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "tab-content.item#home3": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidoschocolates"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+  "tab-content.item#home4": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidosdestilados"
+    ],
+    "props": {
+      "tabId": "home4"
+    }
+  },
+  "tab-content.item#home5": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidossaude"
+    ],
+    "props": {
+      "tabId": "home5"
+    }
+  },
+  "tab-content.item#home6": {
+    "children": [
+      "flex-layout.row#shelfmaisvendidosvinhos"
+    ],
+    "props": {
+      "tabId": "home6"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidosazeites": {
+    "children": [
+      "list-context.product-list#maisvendidosazeites"
+    ]
+  },
+  "list-context.product-list#maisvendidosazeites": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidosazeites"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "214"
+    }
+  },
+  "slider-layout#maisvendidosazeites": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
       },
-      "tab-list.item#home6": {
-        "props": {
-          "tabId": "home6",
-          "label": "Vinhos"
-        }
-        },
- "tab-content#home": {
-   "children": [
-     "tab-content.item#home1",
-     "tab-content.item#home2",
-     "tab-content.item#home3",
-     "tab-content.item#home4",
-     "tab-content.item#home5",
-     "tab-content.item#home6"
-   ]
- },
-
-
-
-
-
- "tab-content.item#home1": {
-   "children": [
-    "flex-layout.row#shelfmaisvendidosazeites"
-   ],
-   "props": {
-     "tabId": "home1"
-   }
- },
- "tab-content.item#home2": {
-   "children": [
-    "flex-layout.row#shelfmaisvendidoscafes"
-   ],
-   "props": {
-     "tabId": "home2"
-   }
- },
-
- "tab-content.item#home3": {
-  "children": [
-   "flex-layout.row#shelfmaisvendidoschocolates"
-  ],
-  "props": {
-    "tabId": "home3"
-  }
-},
-
-"tab-content.item#home4": {
-  "children": [
-   "flex-layout.row#shelfmaisvendidosdestilados"
-  ],
-  "props": {
-    "tabId": "home4"
-  }
-},
-
-"tab-content.item#home5": {
-  "children": [
-   "flex-layout.row#shelfmaisvendidossaude"
-  ],
-  "props": {
-    "tabId": "home5"
-  }
-},
-
-"tab-content.item#home6": {
-  "children": [
-   "flex-layout.row#shelfmaisvendidosvinhos"
-  ],
-  "props": {
-    "tabId": "home6"
-  }
-},
-
-
-
-"flex-layout.row#shelfmaisvendidosazeites": {
-  "children": ["list-context.product-list#maisvendidosazeites"]
-},
-"list-context.product-list#maisvendidosazeites": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidosazeites"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "214"
-  }
-},
-"slider-layout#maisvendidosazeites": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-
-"flex-layout.row#shelfmaisvendidoscafes": {
-  "children": ["list-context.product-list#maisvendidoscafes"]
-},
-"list-context.product-list#maisvendidoscafes": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidoscafes"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "206"
-  }
-},
-"slider-layout#maisvendidoscafes": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-"flex-layout.row#shelfmaisvendidoschocolates": {
-  "children": ["list-context.product-list#maisvendidoschocolates"]
-},
-"list-context.product-list#maisvendidoschocolates": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidoschocolates"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "1305"
-  }
-},
-"slider-layout#maisvendidoschocolates": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-
-"flex-layout.row#shelfmaisvendidosdestilados": {
-  "children": ["list-context.product-list#maisvendidosdestilados"]
-},
-"list-context.product-list#maisvendidosdestilados": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidosdestilados"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "205"
-  }
-},
-"slider-layout#maisvendidosdestilados": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-
-
-"flex-layout.row#shelfmaisvendidossaude": {
-  "children": ["list-context.product-list#maisvendidossaude"]
-},
-"list-context.product-list#maisvendidossaude": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidossaude"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "1306"
-  }
-},
-"slider-layout#maisvendidossaude": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-
-"flex-layout.row#shelfmaisvendidosvinhos": {
-  "children": ["list-context.product-list#maisvendidosvinhos"]
-},
-"list-context.product-list#maisvendidosvinhos": {
-  "blocks": ["product-summary.shelf"],
-  "children": ["slider-layout#maisvendidosvinhos"],
-  "props": {
-    "orderBy": "OrderByReleaseDateDESC",
-    "collection": "204"
-  }
-},
-"slider-layout#maisvendidosvinhos": {
-  "props": {
-    "itemsPerPage": {
-      "desktop":4,
-      "tablet": 2,
-      "phone": 2
-    },
-    "infinite": true,
-    "fullWidth": false,
-    "blockClass": "shelf"
-  }
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidoscafes": {
+    "children": [
+      "list-context.product-list#maisvendidoscafes"
+    ]
+  },
+  "list-context.product-list#maisvendidoscafes": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidoscafes"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "206"
+    }
+  },
+  "slider-layout#maisvendidoscafes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidoschocolates": {
+    "children": [
+      "list-context.product-list#maisvendidoschocolates"
+    ]
+  },
+  "list-context.product-list#maisvendidoschocolates": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidoschocolates"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "1305"
+    }
+  },
+  "slider-layout#maisvendidoschocolates": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidosdestilados": {
+    "children": [
+      "list-context.product-list#maisvendidosdestilados"
+    ]
+  },
+  "list-context.product-list#maisvendidosdestilados": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidosdestilados"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "205"
+    }
+  },
+  "slider-layout#maisvendidosdestilados": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidossaude": {
+    "children": [
+      "list-context.product-list#maisvendidossaude"
+    ]
+  },
+  "list-context.product-list#maisvendidossaude": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidossaude"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "1306"
+    }
+  },
+  "slider-layout#maisvendidossaude": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "flex-layout.row#shelfmaisvendidosvinhos": {
+    "children": [
+      "list-context.product-list#maisvendidosvinhos"
+    ]
+  },
+  "list-context.product-list#maisvendidosvinhos": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#maisvendidosvinhos"
+    ],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "collection": "204"
+    }
+  },
+  "slider-layout#maisvendidosvinhos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
   "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+    "children": [
+      "slider-layout#demo-images"
+    ],
     "props": {
       "height": 1500,
+      "blockClass": "slider-layout#demo",
       "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
@@ -1054,25 +892,23 @@
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop":1,
         "tablet": 1,
         "phone": 1
       },
-     
-      "autoplay":{
-        "timeout":5000,
-        "stopOnHover":true
-
-     },
-
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
   },
-
   "list-context.image-list#slider-produtos-home": {
-    "children": ["slider-layout#slider-produtos-home"],
+    "children": [
+      "slider-layout#slider-produtos-home"
+    ],
     "props": {
       "height": 720,
       "images": [
@@ -1122,20 +958,15 @@
         "tablet": 1,
         "phone": 1
       },
-     
-      "autoplay":{
-        "timeout":5000,
-        "stopOnHover":true
-
-     },
-
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
   },
-
-
   "rich-text#shelf-title": {
     "props": {
       "text": "## Lançamento",
@@ -1143,11 +974,17 @@
     }
   },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -1164,7 +1001,6 @@
       "blockClass": "shelf"
     }
   },
-
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -1178,57 +1014,35 @@
       "textAlignment": "center"
     }
   },
-
-
-
-
   "rich-text#shelf-title-novidades": {
     "props": {
       "text": "NOVIDADES",
       "blockClass": "shelfTitle"
-      
     }
   },
-
-
-
   "rich-text#question": {
     "props": {
       "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
       "blockClass": "question"
     }
   },
-
   "rich-text#link": {
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
   },
-
   "product-summary-buy-button": {
-    "props": { 
+    "props": {
       "displayBuyButton": "displayButtonAlways"
     }
   },
-
-
-
-
-
-
-
   "rich-text#shelf-title-editoriais": {
     "props": {
       "text": "As melhores bebidas, selecionadas para \n**sua melhor ocasião**",
       "blockClass": "titulo-vitrines-verao"
     }
   },
-  
-
-
-
-  
   "slider-layout#editoriais": {
     "props": {
       "itemsPerPage": {
@@ -1237,364 +1051,307 @@
         "phone": 2
       },
       "centerMode": {
-        "desktop":"disabled",
+        "desktop": "disabled",
         "tablet": "to-the-left",
         "phone": "to-the-left"
       },
-      "autoplay":{
-        "timeout":5000,
-        "stopOnHover":true
-
-     },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "editoriais"
     },
-    "children": ["info-card#azeite",
-                //"info-card#vinhos1",
-                 "info-card#azeitesparacrudosdecarnes",
-                 "info-card#tonicas1",
-                 "info-card#cachacacaipirinha",
-                 "info-card#cachacacentenarias",
-                 "info-card#cafeacademia",
-                 "info-card#chocolate",
-                 "info-card#churrasco",
-                 "info-card#cuidadosparaela",
-                 "info-card#cuidadosparaele",
-                 "info-card#curiosos",
-                 "info-card#gin-negroni",
-                 "info-card#happy-hour",
-                 "info-card#hora-do-brunch",
-                 "info-card#ingredientesbrasileiros",
-                 "info-card#maratonarseries",
-                 "info-card#napraia",
-                // "info-card#negroni",
-                 //"info-card#peixe",
-                 "info-card#rabodegalo",
-                 "info-card#vinhogelado"]
+    "children": [
+      "info-card#azeite",
+      //"info-card#vinhos1",
+      "info-card#azeitesparacrudosdecarnes",
+      "info-card#tonicas1",
+      "info-card#cachacacaipirinha",
+      "info-card#cachacacentenarias",
+      "info-card#cafeacademia",
+      "info-card#chocolate",
+      "info-card#churrasco",
+      "info-card#cuidadosparaela",
+      "info-card#cuidadosparaele",
+      "info-card#curiosos",
+      "info-card#gin-negroni",
+      "info-card#happy-hour",
+      "info-card#hora-do-brunch",
+      "info-card#ingredientesbrasileiros",
+      "info-card#maratonarseries",
+      "info-card#napraia",
+      // "info-card#negroni",
+      //"info-card#peixe",
+      "info-card#rabodegalo",
+      "info-card#vinhogelado"
+    ]
   },
-
-
-
-
   "info-card#azeite": {
     "props": {
       "imageUrl": "/arquivos/azeites-para-crudos-io-v2.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Azeites \n para crudos",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-
-  
   "info-card#vinhos1": {
     "props": {
       "imageUrl": "/arquivos/vinhos-para-tomar-gelado-io-v2.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Vinhos para tomar gelado",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-  
   "info-card#azeitesparacrudosdecarnes": {
     "props": {
       "imageUrl": "/arquivos/Banner-Tartar.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Azeites para crudos de carne",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#tonicas1": {
     "props": {
       "imageUrl": "/arquivos/tonicas-e-xaropes-io-v2.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Tônicas e xaropes para coqueteis",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-
   "info-card#cachacacaipirinha": {
     "props": {
       "imageUrl": "/arquivos/cachaca-para-caipirinha.png?v=63780530126800000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Cachaça para caipirinha",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#cachacacentenarias": {
     "props": {
       "imageUrl": "/arquivos/cachacas-centenarias.png?v=63780530126800000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Cachaças centenárias",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#cafeacademia": {
     "props": {
       "imageUrl": "/arquivos/cafe_academia.png?v=63780530126800000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Café academia",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#chocolate": {
     "props": {
       "imageUrl": "/arquivos/chocolate-cafe.png?v=63780530126800000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Chocolate",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-  
   "info-card#churrasco": {
     "props": {
       "imageUrl": "/arquivos/churrasco.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Para o churrasco",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#cuidadosparaela": {
     "props": {
       "imageUrl": "/arquivos/cuidados-para-ela.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Cuidados para ela",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#cuidadosparaele": {
     "props": {
       "imageUrl": "/arquivos/cuidados-para-ele.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Cuidados para ele",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
   "info-card#curiosos": {
     "props": {
       "imageUrl": "/arquivos/curiosos.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Vinhos para curiosos",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#destiladostropicais": {
     "props": {
       "imageUrl": "/arquivos/destilados-tropicais.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Destilados tropicais",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#gin-negroni": {
     "props": {
       "imageUrl": "/arquivos/gin-negroni.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Gin Negroni",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-  
   "info-card#happy-hour": {
     "props": {
       "imageUrl": "/arquivos/happy-hour.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Para Happy Hour",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#hora-do-brunch": {
     "props": {
       "imageUrl": "/arquivos/hora-do-brunch.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Hora do brunch",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
-       "textAlignment": "center"
+      "textAlignment": "center"
     }
   },
-
-
   "info-card#ingredientesbrasileiros": {
     "props": {
       "imageUrl": "/arquivos/ingredientes-brasileiros2.png?v=637643186868000000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Ingredientes brasileiros",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#maratonarseries": {
     "props": {
       "imageUrl": "/arquivos/maratonar-series.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Para maratonar",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#napraia": {
     "props": {
       "imageUrl": "/arquivos/na-praia.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Na praia",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#negroni": {
     "props": {
       "imageUrl": "/arquivos/negroni-brasileiro.png?v=637643186868000000",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Negroni 100% brasileiro",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#peixe": {
     "props": {
       "imageUrl": "/arquivos/peixe.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Para peixes",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
   "info-card#rabodegalo": {
     "props": {
       "imageUrl": "/arquivos/rabo-de-galo.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Rabo de galo",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
   "info-card#vinhogelado": {
     "props": {
       "imageUrl": "/arquivos/vinho-gelado.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Vinho gelado",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
   "info-card#vinhoimpressionar": {
     "props": {
       "imageUrl": "/arquivos/vinho-impressionar.png",
       //"isFullModeStyle": true,
-    //  "headline": "Black Friday",
+      //  "headline": "Black Friday",
       "callToActionText": "Vinhos para impressionar",
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
     }
   },
-
-
-
-
-
   "slider-layout#categoriasbaixo": {
     "props": {
       "itemsPerPage": {
@@ -1602,21 +1359,20 @@
         "tablet": 3,
         "phone": 1
       },
-      "autoplay":{
-        "timeout":5000,
-        "stopOnHover":true
-
-     },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "slidertresimagens"
-     
-      
-
     },
-    "children": ["image#categoriasbaixo1","image#categoriasbaixo2","image#categoriasbaixo3"]
+    "children": [
+      "image#categoriasbaixo1",
+      "image#categoriasbaixo2",
+      "image#categoriasbaixo3"
+    ]
   },
-
   "image#categoriasbaixo1": {
     "props": {
       "src": "/arquivos/banner-cafe-io-v2.png?v=6378053012680000001",
@@ -1635,29 +1391,30 @@
       "maxWidth": "100%"
     }
   },
-  
   "image#categoriasbaixo4": {
     "props": {
       "src": "/arquivos/banner-cafe-io.jpg?v=637805301268000000",
       "maxWidth": "100%"
     }
   },
-
-
   "rich-text#shelf-title-ofertas": {
     "props": {
       "text": "## Ofertas:",
       "blockClass": "shelfTitle"
     }
   },
-
-
   "flex-layout.row#shelfprateleiraofertashome": {
-    "children": ["list-context.product-list#prateleiraofertashome"]
+    "children": [
+      "list-context.product-list#prateleiraofertashome"
+    ]
   },
   "list-context.product-list#prateleiraofertashome": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiraofertashome"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#prateleiraofertashome"
+    ],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "202"
@@ -1666,7 +1423,7 @@
   "slider-layout#prateleiraofertashome": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
@@ -1675,32 +1432,4 @@
       "blockClass": "shelf"
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
 }
