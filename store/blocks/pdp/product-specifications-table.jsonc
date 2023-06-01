@@ -23,7 +23,7 @@
   "flex-layout.col#spec-group": {
     "children": [
       "flex-layout.row#spec-group-name",
-      "product-specification"
+      "product-specification#sg"
     ]
   },
   "flex-layout.row#spec-group-name": {
@@ -31,10 +31,10 @@
       "blockClass": "productSpecificationGroupName"
     },
     "children": [
-      "product-specification-text#group"
+      "product-specification-text#table"
     ]
   },
-  "product-specification": {
+  "product-specification#sg": {
     "children": [
       "flex-layout.row#spec-item"
     ]
@@ -57,7 +57,7 @@
       }
     },
     "children": [
-      "product-specification-text#specification"
+      "product-specification-text#specification-table"
     ]
   },
   "flex-layout.col#spec-value": {
@@ -70,20 +70,20 @@
   },
   "product-specification-values": {
     "children": [
-      "product-specification-text#value"
+      "product-specification-text#value-table"
     ]
   },
-  "product-specification-text#group": {
+  "product-specification-text#table": {
     "props": {
       "message": "{groupName}"
     }
   },
-  "product-specification-text#specification": {
+  "product-specification-text#specification-table": {
     "props": {
       "message": "{specificationName}"
     }
   },
-  "product-specification-text#value": {
+  "product-specification-text#value-table": {
     "props": {
       "message": "{specificationValue}"
     }

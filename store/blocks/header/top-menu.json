@@ -17,11 +17,7 @@
     }
   },
 
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+ 
 
   "search-bar": {
     "blocks": ["autocomplete-result-list.v2"],

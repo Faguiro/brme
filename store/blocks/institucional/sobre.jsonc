@@ -2,8 +2,8 @@
     "store.custom#sobre": {
       "blocks": [
        
-          "flex-layout.row#video",
-          "flex-layout.row#sobre",
+          "flex-layout.row#video-intitucional",
+          "flex-layout.row#sobre-1",
           "flex-layout.row#descobrir",
           "slider-layout#imagensdescobrirmobile",
           "flex-layout.row#degustar",
@@ -26,12 +26,12 @@
 
 
    
-    "flex-layout.row#video": {
-        "children": ["video#background"]
+    "flex-layout.row#video-intitucional": {
+        "children": ["video#background-institucional"]
       },
 
 
-    "video#background": {
+    "video#background-institucional": {
         "props": {
           "width": "100%",
           "height": "600px",
@@ -44,7 +44,7 @@
       },
 
 
-      "flex-layout.row#sobre": {
+      "flex-layout.row#sobre-1": {
         "children": ["breadcrumb"],
         "props": {
           "preserveLayoutOnMobile": true,
@@ -69,7 +69,7 @@
   
   
       "flex-layout.col#textodescobrir": {
-        "children": ["rich-text#descobir-title", "rich-text#missao-content"],
+        "children": ["rich-text#descobir-title", "rich-text#missao-content-sobre-1"],
         "props": {
           "blockClass": "bloco-descobrir",
           "preventVerticalStretch": true
@@ -87,7 +87,7 @@
 
 
 
-      "rich-text#missao-content": {
+      "rich-text#missao-content-sobre-1": {
         "props": {
           "text": "Nossa equipe percorre todo o Brasil em busca de produtos e experiências 100% brasileiras para oferecer para nossos clientes.Estamos em contato com os principais produtores do país, das diferentes categorias que trabalhamos, para nos atualizarmos e expandirmos nossas seleções todos os meses. Queremos sempre descobrir o que há de melhor–se você oferece um produto ou serviço de qualidade e feito no Brasil, entre em contato com a gente. "
         }
@@ -399,11 +399,11 @@
       },
 
       "flex-layout.col#simagemcompartilhar": {
-        "children": ["flex-layout.row#simagemcompartilhar","flex-layout.row#simagemcompartilhar2"]
+        "children": ["flex-layout.row#simagemcompartilhar-sobre","flex-layout.row#simagemcompartilhar2"]
       },
 
 
-      "flex-layout.row#simagemcompartilhar": {
+      "flex-layout.row#simagemcompartilhar-sobre": {
         "children": ["image#simagemcompartilhar"]
       },
 
@@ -479,7 +479,7 @@
       },
       "list-context.product-list#prateleirasobre": {
         "blocks": ["product-summary.shelf"],
-        "children": ["slider-layout#prateleiralancamentos"],
+        "children": ["slider-layout#prateleiralancamentos-sobre"],
         "props": {
           "orderBy": "OrderByReleaseDateDESC",
           "collection": "1276"
@@ -488,7 +488,7 @@
 
   },
 
-  "slider-layout#prateleiralancamentos": {
+  "slider-layout#prateleiralancamentos-sobre": {
     "props": {
       "itemsPerPage": {
         "desktop":4,

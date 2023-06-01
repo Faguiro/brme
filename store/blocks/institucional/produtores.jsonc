@@ -226,13 +226,13 @@
   },
 
   "flex-layout.row#videosobre": {
-    "children": ["video#background"],
+    "children": ["video#background-prod"],
     "props": {
         "blockClass": "videosprodutores"
       }
 
   },
-"video#background": {
+"video#background-prod": {
     "props": {
       "width": "100%",
       "height": "600px",

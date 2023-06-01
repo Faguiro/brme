@@ -7,7 +7,7 @@
     },
     "flex-layout.col#text-trocas-e-devolucoes": {
       "children": [
-        "rich-text#about-title", 
+        "rich-text#about-title-devolucoes", 
         "rich-text#duvidas",
         "rich-text#email",
         "rich-text#whats",
@@ -26,7 +26,7 @@
         "preventVerticalStretch": true
       }
     },
-    "rich-text#about-title": {
+    "rich-text#about-title-devolucoes": {
       "props": {
         "text": "Trocas e Devoluções",
         "blockClass": "titulo"

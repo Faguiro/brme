@@ -8,8 +8,8 @@
 
     "props": {
       "context": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "default",
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
         "maxItemsPerPage": 12
       }
     }
@@ -140,7 +140,7 @@
   "search-banner#banner-third": {
     "props": {
       "area": "three",
-      "blockClass": "texto-seo-pagina-de-departamentovtex ",
+      "blockClass": "texto-seo-pagina-de-departamentovtex",
       "horizontalAlignment": "center"
     }
   },

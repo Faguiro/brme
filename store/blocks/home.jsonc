@@ -6,15 +6,18 @@
       "slider-layout#slider-categorias-brme-2033",
       //"flex-layout.row#informativos",
       //"flex-layout.row#informativos-mobile",
+     
       "rich-text#shelf-title-lancamentos",
       //"flex-layout.row#shelfprateleiralancamentos",
       "flex-layout.row#shelfprateleiranovidadeshome",
       "flex-layout.row#shelfprateleiranovidadeshome2",
+  
       "flex-layout.row#bannercurso",
       "flex-layout.row#bannercursomobile",
       //"list-context.image-list#slider-produtos-home",
       //"rich-text#shelf-title-maisvendidos",
       //"tab-layout#colecoesmaisvendidos",
+      
       "rich-text#shelf-title-editoriais",
       "slider-layout#editoriais",
       "rich-text#shelf-title-ofertas",
@@ -32,13 +35,13 @@
   },
   "list-context.product-list#prateleiralancamentos": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#prateleiralancamentos"],
+    "children": ["slider-layout#prateleiralancamentos#home"],
     "props": {
       "orderBy": "OrderByReleaseDateDESC",
       "collection": "1277"
     }
   },
-  "slider-layout#prateleiralancamentos": {
+  "slider-layout#prateleiralancamentos#home": {
     "props": {
       "itemsPerPage": {
         "desktop":4,
@@ -285,7 +288,7 @@
   },
 "image#informativos-home-entrega": {
   "props": {
-    "src": "https://tfcuey.vteximg.com.br/arquivos/icone-entrega.png?v=637805301268000000",
+    "src": "://tfcuey.vteximg.com.br/arquivos/icone-entrega.png?v=637805301268000000",
     "maxWidth": "100%"
   }
 },

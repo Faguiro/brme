@@ -6,12 +6,12 @@
       "children": ["image#about-us", "flex-layout.col#text-about-us"]
     },
     "flex-layout.col#text-about-us": {
-      "children": ["rich-text#about-title", "rich-text#about-content"],
+      "children": ["rich-text#about-title-about", "rich-text#about-content"],
       "props": {
         "preventVerticalStretch": true
       }
     },
-    "rich-text#about-title": {
+    "rich-text#about-title-about": {
       "props": {
         "text": "# About Minimum Theme"
       }

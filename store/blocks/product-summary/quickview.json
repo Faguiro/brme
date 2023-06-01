@@ -24,6 +24,7 @@
   "modal-content#quickview": {
     "children": [
       "vtex.store-components:product-name",
+      "product-rating-inline",
       "flex-layout.col#quickviewPrice",
       "product-summary-sku-selector#quickview"
     ],
@@ -122,6 +123,7 @@
   },
   "product-images#quickview": {
     "props": {
+      "width": 350,
       "blockClass": "quickview",
       "showNavigationArrows": true
     }

@@ -65,7 +65,7 @@
 
 
     "flex-layout.col#missao": {
-      "children": ["rich-text#missao-title", "rich-text#missao-content"],
+      "children": ["rich-text#missao-title", "rich-text#missao-content-quem-somos"],
       "props": {
         "blockClass": "bloco-missao",
         "preventVerticalStretch": true
@@ -77,7 +77,7 @@
         "blockClass": "titulo-quem-somos"
       }
     },
-    "rich-text#missao-content": {
+    "rich-text#missao-content-quem-somos": {
       "props": {
         "text": "texto"
       }

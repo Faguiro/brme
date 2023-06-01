@@ -8,7 +8,7 @@
     "flex-layout.col#text-frete-e-entrega": {
       "children": [
         
-        "rich-text#about-title", 
+        "rich-text#about-title-entrega", 
         "rich-text#about-subtitle-calculo", 
         "rich-text#about-content-calculo",
         "rich-text#about-subtitle-entrega", 
@@ -25,7 +25,7 @@
         "preventVerticalStretch": true
       }
     },
-    "rich-text#about-title": {
+    "rich-text#about-title-entrega": {
       "props": {
         "text": "INFORMAÇÕES SOBRE ENTREGA E FRETE:",
         "blockClass": "titulo"

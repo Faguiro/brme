@@ -6,10 +6,10 @@
     "product-specification": {
       "children": [
         "product-specification-text#specification",
-        "product-specification-values"
+        "product-specification-values#group"
       ]
     },
-    "product-specification-values": {
+    "product-specification-values#group": {
       "children": ["product-specification-text#value"]
     },
     "product-specification-text#group": {

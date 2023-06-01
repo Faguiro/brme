@@ -2,15 +2,15 @@
     "store.custom#sobrev2": {
       "blocks": [
        
-          "flex-layout.row#video",
-          "flex-layout.row#sobre",
-          "flex-layout.row#descobrir",
-          "slider-layout#imagensdescobrirmobile",
-          "flex-layout.row#degustar",
-          "flex-layout.row#tresimagens",
+          "flex-layout.row#video-sobre2",
+          "flex-layout.row#sobre-2",
+          "flex-layout.row#descobrir2",
+          "slider-layout#imagensdescobrirmobile2",
+          "flex-layout.row#degustar2",
+          "flex-layout.row#tresimagens2",
           "slider-layout#imagensdegustarmobile",
           "flex-layout.row#selecionar",
-          "slider-layout#imagensselecionarmobile",
+          "slider-layout#imagensselecionarmobile2",
           "flex-layout.row#compartilhar",
           "slider-layout#imagenscompartiharmobile",
           "flex-layout.row#oferecer-titulo",
@@ -40,12 +40,12 @@
 
 
    
-    "flex-layout.row#video": {
-        "children": ["video#background"]
+    "flex-layout.row#video-sobre2": {
+        "children": ["video#background-sobre2"]
       },
 
 
-    "video#background": {
+    "video#background-sobre2": {
         "props": {
           "width": "100%",
           "height": "600px",
@@ -58,7 +58,7 @@
       },
 
 
-      "flex-layout.row#sobre": {
+      "flex-layout.row#sobre-2": {
         "children": ["breadcrumb"],
         "props": {
           "preserveLayoutOnMobile": true,
@@ -68,7 +68,7 @@
 
 
       
-    "flex-layout.row#descobrir": {
+    "flex-layout.row#descobrir2": {
         "children": ["flex-layout.col#primeirobloco", "flex-layout.col#segundobloco"],
         "props": {
           "blockClass": "sobre-descobrir"
@@ -83,7 +83,7 @@
   
   
       "flex-layout.col#textodescobrir": {
-        "children": ["rich-text#descobir-title", "rich-text#missao-content"],
+        "children": ["rich-text#descobir-title", "rich-text#missao-content-sobre-2"],
         "props": {
           "blockClass": "bloco-descobrir",
           "preventVerticalStretch": true
@@ -101,7 +101,7 @@
 
 
 
-      "rich-text#missao-content": {
+      "rich-text#missao-content-sobre-2": {
         "props": {
           "text": "Nossa equipe percorre todo o Brasil em busca de produtos e experiências 100% brasileiras para oferecer para nossos clientes.Estamos em contato com os principais produtores do país, das diferentes categorias que trabalhamos, para nos atualizarmos e expandirmos nossas seleções todos os meses. Queremos sempre descobrir o que há de melhor–se você oferece um produto ou serviço de qualidade e feito no Brasil, entre em contato com a gente. "
         }
@@ -157,7 +157,7 @@
 
 
 
-      "slider-layout#imagensdescobrirmobile": {
+      "slider-layout#imagensdescobrirmobile2": {
         "children": ["image#descobrirprimeiraimagem", "image#descobrirsegundaimagem","image#descobrirterceiraimagem"],
         "props": {
           "autoplay": {
@@ -174,7 +174,7 @@
 
 
 
-      "flex-layout.row#degustar": {
+      "flex-layout.row#degustar2": {
         "children": ["flex-layout.row#text-degustar"],
         "props": {
           "blockClass": "sobre-degustar"
@@ -203,7 +203,7 @@
           "text": "Ao lado dos nossos especialistas e membros dos comitês, degustamos todos os produtos do nosso portfólio. \n Para todas as categorias são criados comitês especializados que nos ajudam nas degustações e avaliações. " }
       },
 
-      "flex-layout.row#tresimagens": {
+      "flex-layout.row#tresimagens2": {
         "children": ["flex-layout.col#primeiraimagemdegustar","flex-layout.col#segundaimagemdegustar","flex-layout.col#terceiraimagemdegustar"],
         "props": {
           "blockClass": "sobre-3-imagens"
@@ -346,8 +346,8 @@
 
 
       
-      "slider-layout#imagensselecionarmobile": {
-        "children": ["image#imagemdegustacaoselecionarmobile", "image#simagemselecionar","image#terceiraimagemdegustar"],
+      "slider-layout#imagensselecionarmobile2": {
+        "children": ["image#imagemdegustacaoselecionarmobile2", "image#simagemselecionar","image#terceiraimagemdegustar"],
         "props": {
           "autoplay": {
             "timeout": 5000,
@@ -361,7 +361,7 @@
       
 
 
-      "image#imagemdegustacaoselecionarmobile": {
+      "image#imagemdegustacaoselecionarmobile2": {
         "props": {
           "src": "https://tfcuey.vteximg.com.br/arquivos/homem-bebendo-cafe.png",
           "maxWidth": "100%"
@@ -379,9 +379,9 @@
       },
   
       "flex-layout.col#compartilhar": {
-        "children": ["flex-layout.row#titulocompartilhar","flex-layout.row#textocompartilhar","flex-layout.row#simagemdegustacaocompartilhar"]
+        "children": ["flex-layout.row#flex-layout.row#titulocompartilhar-2-2","flex-layout.row#textocompartilhar","flex-layout.row#simagemdegustacaocompartilhar2"]
       },
-      "flex-layout.row#titulocompartilhar": {
+      "flex-layout.row#flex-layout.row#titulocompartilhar-2-2": {
         "children": ["rich-text#compartilhar-title"]
       },
       "rich-text#compartilhar-title": {
@@ -401,7 +401,7 @@
       },
 
 
-      "flex-layout.row#simagemdegustacaocompartilhar": {
+      "flex-layout.row#simagemdegustacaocompartilhar2": {
         "children": ["image#imagemdegustacaocompartilhar"]
       },
 
@@ -516,7 +516,7 @@
   },
 
   "flex-layout.row#cincoimagens": {
-    "children": ["flex-layout.col#cincoimagens1","flex-layout.col#cincoimagens2","flex-layout.col#cincoimagens3","flex-layout.col#cincoimagens4","flex-layout.col#cincoimagens5"],
+    "children": ["flex-layout.col#cincoimagens1","flex-layout.col#cincoimagens","flex-layout.col#cincoimagens3","flex-layout.col#cincoimagens4","flex-layout.col#cincoimagens5-2"],
     "props": {
       "blockClass": "sobre-5-imagens"
     }
@@ -537,7 +537,7 @@
     }
   },
 
-  "flex-layout.col#cincoimagens2": {
+  "flex-layout.col#cincoimagens": {
     "children": ["image#cincoimagens2"],
     "props": {
       "blockClass": "sobre-5-banners-informativos",
@@ -584,7 +584,7 @@
     }
   },
 
-  "flex-layout.col#cincoimagens5": {
+  "flex-layout.col#cincoimagens5-2": {
     "children": ["image#cincoimagens5"],
     "props": {
       "blockClass": "sobre-5-banners-informativos",
@@ -602,7 +602,7 @@
 
 
   "flex-layout.row#cincoimagens-mobile-col-1": {
-    "children": ["flex-layout.col#cincoimagensmobile1","flex-layout.col#cincoimagensmobile2"],
+    "children": ["flex-layout.col#cincoimagensmobile1","flex-layout.col#cincoimagensmobile2-2"],
     "props": {
       "blockClass": "sobre-5-imagens-mobile-coluna1"
     }
@@ -623,15 +623,15 @@
     }
   },
 
-  "flex-layout.col#cincoimagensmobile2": {
-    "children": ["image#cincoimagensmobile2"],
+  "flex-layout.col#cincoimagensmobile2-2": {
+    "children": ["image#cincoimagensmobile2-2"],
     "props": {
       "blockClass": "sobre-5-banners-mobile-informativos",
       "preventVerticalStretch": true
     }
   },
 
-  "image#cincoimagensmobile2": {
+  "image#cincoimagensmobile2-2": {
     "props": {
       "src": "https://tfcuey.vteximg.com.br/arquivos/5-banners-sobre-mobile-2.png?v=63764318686973007565",
       "maxWidth": "100%"
@@ -712,7 +712,7 @@
   },
 
   "flex-layout.col#blococontsobreportrasdabrmetitulo": {
-    "children": ["rich-text#por-tras-da-brme-title", "list-context.image-list#portrasdabrme"],
+    "children": ["rich-text#por-tras-da-brme-title", "list-context.image-list#portrasdabrme-2"],
     "props": {
       "preventVerticalStretch": true
     }
@@ -726,7 +726,7 @@
 
 
 
-  "list-context.image-list#portrasdabrme": {
+  "list-context.image-list#portrasdabrme-2": {
     "children": ["slider-layout#demo-portrasdabrme"],
     "props": {
       "height": 650,

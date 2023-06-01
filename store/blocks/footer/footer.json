@@ -11,14 +11,22 @@
       "flex-layout.row#footer-3-desktop",
       "flex-layout.row#espacamento-footer",
 
+
+
       "flex-layout.row#footer-aviso-desktop",
 
       "flex-layout.row#footer-5-desktop",
       "flex-layout.row#developers"
+      
+
     ]
   },
   "flex-layout.row#footer-1-desktop": {
-    "children": ["flex-layout.row#bloconews"],
+    "children": [
+      "flex-layout.row#bloconews"
+ 
+     
+    ],
     "props": {
       "blockClass": "menu-footer-row",
       "paddingTop": 6,
@@ -26,11 +34,17 @@
     }
   },
 
-  "footer-spacer": {
+
+  "footer-spacer":{
     "props": {
       "blockClass": "footer-espaco"
     }
   },
+
+
+
+
+
 
   "flex-layout.row#bloconews": {
     "props": {
@@ -40,52 +54,79 @@
   },
 
   "newsletter-form": {
-    "props": {
-      "block": ["ErrorState", "SuccessState", "LoadingState"]
+
+    "props":{
+
+      "block": [
+        "ErrorState",
+        "SuccessState",
+        "LoadingState"
+      ]
     },
-
-    "children": ["flex-layout.row#bloconewscont"]
-  },
-
-  "flex-layout.row#bloconewscont": {
+  
     "children": [
-      "flex-layout.col#bloconewscont",
-      "flex-layout.col#bloconewscont-2"
+      "flex-layout.row#bloconewscont"
     ]
   },
 
-  "flex-layout.col#bloconewscont": {
-    "children": ["rich-text#title-news"]
+
+  "flex-layout.row#bloconewscont":{
+    "children": [
+      "flex-layout.col#bloconewscont",
+      "flex-layout.col#bloconewscont-2"
+     
+    ]
+
   },
 
-  "flex-layout.col#bloconewscont-2": {
+
+  "flex-layout.col#bloconewscont":{
+    "children": [
+      "rich-text#title-news"
+     
+    ]
+
+  },
+
+  
+  "flex-layout.col#bloconewscont-2":{
     "children": [
       "newsletter-input-name",
       "newsletter-input-email",
       "newsletter-hidden-field",
       "flex-layout.row#bloconewscontnews"
+     
     ],
     "props": {
       "blockClass": "bloconewscont-2-brme-2023"
+      
     }
+
   },
 
-  "flex-layout.row#bloconewscontnews": {
+  "flex-layout.row#bloconewscontnews":{
     "children": [
       "flex-layout.col#bloconewscontnews",
       "flex-layout.col#bloconewscontnews-2"
     ]
   },
 
-  "flex-layout.col#bloconewscontnews": {
-    "children": ["newsletter-checkbox-confirmation"]
+
+  "flex-layout.col#bloconewscontnews":{
+    "children": [
+      "newsletter-checkbox-confirmation"
+    ]
   },
 
-  "flex-layout.col#bloconewscontnews-2": {
-    "children": ["newsletter-submit"]
+  "flex-layout.col#bloconewscontnews-2":{
+    "children": [
+      "newsletter-submit"
+    ]
   },
 
-  "rich-text#title-news": {
+
+
+  "rich-text#title-news":{
     "props": {
       "text": "### Novidades e promoções:",
       "textPosition": "center",
@@ -94,26 +135,38 @@
     }
   },
 
-  "newsletter-input-name": {
+
+  
+
+
+"newsletter-input-name":{
+  "props": {
+    "placeholderText":"Nome"
+  }
+},
+
+
+"newsletter-input-email":{
+  "props": {
+    "placeholderText":"E-mail"
+  }
+},
+
+
+  "newsletter-submit":{
     "props": {
-      "placeholderText": "Nome"
+      "submitButtonLabel":"Enviar"
     }
   },
 
-  "newsletter-input-email": {
-    "props": {
-      "placeholderText": "E-mail"
-    }
-  },
 
-  "newsletter-submit": {
-    "props": {
-      "submitButtonLabel": "Enviar"
-    }
-  },
+
+
+
 
   "social-networks": {
     "props": {
+    
       "socialNetworks": [
         {
           "name": "Facebook",
@@ -123,7 +176,7 @@
           "name": "Instagram",
           "url": "https://www.instagram.com/brme.oficial/"
         },
-
+       
         {
           "name": "LinkedIn",
           "url": "https://www.linkedin.com/company/brme/"
@@ -140,28 +193,42 @@
     }
   },
 
+
+  
   "flex-layout.row#whatsapp-footer": {
     "children": ["image#whatsapp-footer"],
     "props": {
       "blockClass": "area-central-de-atendimento"
+      
     }
   },
+  
 
   "image#whatsapp-footer": {
     "props": {
       "type": "external",
-      "text": "Whatsapp",
+      "text": "Whatsapp", 
       "url": "https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0",
-      "src": "https://tfcuey.vteximg.com.br/arquivos/icone-whats-io-v3.png?v=13221",
+      "src":"https://tfcuey.vteximg.com.br/arquivos/icone-whats-io-v3.png?v=13221",
       "blockClass": "whatsapp-footer"
     }
   },
 
-  "flex-layout.row#espacamento-footer": {
-    "props": {
+
+
+ 
+
+
+
+  "flex-layout.row#espacamento-footer":{
+     "props":{
       "blockClass": "espacamento-footer"
-    }
+     }
   },
+
+
+
+
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
@@ -174,6 +241,7 @@
     }
   },
 
+
   "rich-text#grupobrmefooter": {
     "props": {
       "textAlignment": "CENTER",
@@ -183,44 +251,71 @@
     }
   },
 
+
+
+
+
   "accepted-payment-methods": {
     "props": {
       "blockClass": "payment-methods-title",
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    
     }
   },
 
+
+
+ 
   "flex-layout.row#footer-3-desktop": {
     "children": [
       "flex-layout.col#footer-3-desktop-1",
       "flex-layout.col#footer-3-desktop-2",
       "flex-layout.col#footer-3-desktop-3"
+    
     ],
     "props": {
       "blockClass": "area-central-de-atendimento"
+      
     }
   },
 
-  "flex-layout.col#footer-3-desktop-1": {
-    "children": ["rich-text#footerhorarios"]
+
+
+  "flex-layout.col#footer-3-desktop-1":{
+    "children": [
+      "rich-text#footerhorarios"
+    
+    ]
   },
 
-  "flex-layout.col#footer-3-desktop-2": {
+
+  "flex-layout.col#footer-3-desktop-2":{
     "children": [
       "menu-item#QuemSomos",
       "menu-item#Blog",
       "menu-item#faqfooter",
       "menu-item#politicafooter"
+    
     ],
     "props": {
       "blockClass": "menu-footer-links"
+      
     }
   },
 
-  "flex-layout.col#footer-3-desktop-3": {
-    "children": ["rich-text#footer", "rich-text#footeratendimento"]
+  "flex-layout.col#footer-3-desktop-3":{
+    "children": [
+      "rich-text#footer",
+      "rich-text#footeratendimento"
+    
+    ]
   },
 
+
+
+
+
+  
   "rich-text#footer": {
     "props": {
       "text": "[Central de contato](https://site.brme.com.br/fale-conosco/)",
@@ -235,13 +330,20 @@
     }
   },
 
+
+
+
+
+
+
+
   "flex-layout.row#footer-aviso-desktop": {
     "children": ["rich-text#footeraviso"],
     "props": {
       "blockClass": "central-de-atendimento"
     }
   },
-
+  
   "rich-text#footeraviso": {
     "props": {
       "text": "**A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não dirija.**",
@@ -249,13 +351,20 @@
     }
   },
 
+
+
+
+
+
+
+
   "flex-layout.row#footer-4-desktop": {
     "children": ["rich-text#footerhorarios"],
     "props": {
       "blockClass": "central-de-atendimento"
     }
   },
-
+  
   "rich-text#footerhorarios": {
     "props": {
       "text": "CNPJ: 18.994.127/0001-39 \n Rua Augusta, 2840 - 2º andar \n Cerqueira Cesar - São Paulo/SP \n \n **Email: contato@brme.com.br** \n **WhatsApp: [(11) 94220-7805](https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0)**",
@@ -263,54 +372,64 @@
     }
   },
 
+
+
+
+
+
+
+
+
+
   "flex-layout.row#footer-5-desktop": {
     "children": [
       "flex-layout.col#footer-5-desktop-1",
-      "flex-layout.col#footer-5-desktop"
+       "flex-layout.col#footer-5-desktop"
     ],
     "props": {
       "blockClass": "rodape-final-brme"
     }
   },
 
-  "flex-layout.col#footer-5-desktop": {
-    "children": [
-      "flex-layout.row#footer-5-desktop-1-1",
-      "flex-layout.row#footer-5-desktop-1-2"
-    ]
+  "flex-layout.col#footer-5-desktop":{
+    "children": ["flex-layout.row#footer-5-desktop-1-1", "flex-layout.row#footer-5-desktop-1-2"]
   },
 
-  "flex-layout.row#footer-5-desktop-1-1": {
+  "flex-layout.row#footer-5-desktop-1-1":{
     "children": ["rich-text#selosdeseguranca"]
   },
-  "flex-layout.row#footer-5-desktop-1-2": {
-    "children": ["image#letencrypt", "image#kontudo"]
+  "flex-layout.row#footer-5-desktop-1-2":{
+    "children": ["image#letencrypt","image#kontudo"]
   },
 
-  "flex-layout.col#footer-5-desktop-1": {
-    "children": [
-      "flex-layout.row#footer-5-desktop-2-1",
-      "flex-layout.row#footer-5-desktop-2-2"
-    ]
+
+
+  "flex-layout.col#footer-5-desktop-1":{
+    "children": ["flex-layout.row#footer-5-desktop-2-1","flex-layout.row#footer-5-desktop-2-2"]
   },
 
-  "flex-layout.row#footer-5-desktop-2-1": {
+
+  "flex-layout.row#footer-5-desktop-2-1":{
     "children": ["rich-text#formasdepagamento"]
   },
 
-  "flex-layout.row#footer-5-desktop-2-2": {
+  "flex-layout.row#footer-5-desktop-2-2":{
     "children": ["image#bandeiraspagamento"]
   },
 
+  
+ 
   "image#logofooter": {
     "props": {
       "type": "internal",
-      "text": "brme",
+      "text": "brme", 
       "url": "https://tfcuey.vtexassets.com/arquivos/logo-brme-io.png",
-      "src": "/",
+      "src":"/",
       "blockClass": "logo-footer-brme"
     }
   },
+
+
 
   "rich-text#selosdeseguranca": {
     "props": {
@@ -319,23 +438,29 @@
     }
   },
 
+
   "image#letencrypt": {
     "props": {
       "type": "external",
-      "text": "Let Encrypt",
-      "src": "https://tfcuey.vtexassets.com/arquivos/lets-encrypt-2023.png?v=637643186869730000",
+      "text": "Let Encrypt", 
+      "src":"https://tfcuey.vtexassets.com/arquivos/lets-encrypt-2023.png?v=637643186869730000",
       "blockClass": "selo-let-encrypt"
     }
   },
 
+
+  
   "image#kontudo": {
     "props": {
       "type": "external",
-      "text": "Kontudo",
-      "src": "https://tfcuey.vtexassets.com/arquivos/konduto-logotipo-2023.png?v=637643186868000000",
+      "text": "Kontudo", 
+      "src":"https://tfcuey.vtexassets.com/arquivos/konduto-logotipo-2023.png?v=637643186868000000",
       "blockClass": "selo-Kontudo"
     }
   },
+
+
+
 
   "rich-text#formasdepagamento": {
     "props": {
@@ -344,56 +469,65 @@
     }
   },
 
+
+
   "image#bandeiraspagamento": {
     "props": {
-      "text": "Bandeiras",
+      "text": "Bandeiras", 
       "src": "https://tfcuey.vtexassets.com/arquivos/formas-de-pagamento-footer-2023.png?v=637502097776030000",
       "blockClass": "imagem-formas-de-pagamento"
     }
   },
 
+
+
+
+
   "flex-layout.row#footer-5-mobile": {
     "children": [
-      "rich-text#selosdesegurancamobile",
-      "flex-layout.row#footer-5-titulo-imagens",
-      "rich-text#formasdepagamentomobile",
-      "image#bandeiraspagamentomobile",
-      "image#logofootermobile"
-    ],
+                 "rich-text#selosdesegurancamobile", 
+                 "flex-layout.row#footer-5-titulo-imagens",
+                 "rich-text#formasdepagamentomobile",
+                 "image#bandeiraspagamentomobile",
+                 "image#logofootermobile"],
     "props": {
       "blockClass": "rodape-final-brme-mobile"
     }
   },
 
-  "flex-layout.row#footer-5-titulo-seguranca": {
+  "flex-layout.row#footer-5-titulo-seguranca":{
     "children": ["rich-text#selosdesegurancamobile"]
+
   },
 
-  "flex-layout.row#footer-5-titulo-imagens": {
-    "children": [
-      "flex-layout.col#footer-5-titulo-imagens1",
-      "flex-layout.col#footer-5-titulo-imagens2"
-    ],
-    "props": { "blockClass": "footer-5-titulo-imagens-mobile" }
+  "flex-layout.row#footer-5-titulo-imagens":{
+    "children": ["flex-layout.col#footer-5-titulo-imagens1","flex-layout.col#footer-5-titulo-imagens2"],
+    "props": {"blockClass": "footer-5-titulo-imagens-mobile"}
   },
 
-  "flex-layout.col#footer-5-titulo-imagens1": {
+  "flex-layout.col#footer-5-titulo-imagens1":{
     "children": ["image#letencryptmobile"]
+
   },
 
-  "flex-layout.col#footer-5-titulo-imagens2": {
+  "flex-layout.col#footer-5-titulo-imagens2":{
     "children": ["image#kontudomobile"]
+
   },
 
+
+ 
   "image#logofootermobile": {
     "props": {
       "type": "internal",
-      "text": "brme",
+      "text": "brme", 
       "url": "https://tfcuey.vtexassets.com/arquivos/logo-brme-io.png",
-      "src": "/",
+      "src":"/",
       "blockClass": "logo-footer-brme"
     }
   },
+
+
 
   "rich-text#selosdesegurancamobile": {
     "props": {
@@ -402,23 +536,29 @@
     }
   },
 
+
   "image#letencryptmobile": {
     "props": {
       "type": "external",
-      "text": "Let Encrypt",
-      "src": "https://tfcuey.vtexassets.com/arquivos/selo-lets-2021.png?v=637643186869730000",
+      "text": "Let Encrypt", 
+      "src":"https://tfcuey.vtexassets.com/arquivos/selo-lets-2021.png?v=637643186869730000",
       "blockClass": "selo-let-encrypt"
     }
   },
 
+
+  
   "image#kontudomobile": {
     "props": {
       "type": "external",
-      "text": "Kontudo",
-      "src": "https://tfcuey.vtexassets.com/arquivos/selo-kontudo-2021.png?v=637643186868000000",
+      "text": "Kontudo", 
+      "src":"https://tfcuey.vtexassets.com/arquivos/selo-kontudo-2021.png?v=637643186868000000",
       "blockClass": "selo-Kontudo"
     }
   },
+
+
+
 
   "rich-text#formasdepagamentomobile": {
     "props": {
@@ -427,16 +567,22 @@
     }
   },
 
+
+
   "image#bandeiraspagamentomobile": {
     "props": {
-      "text": "Bandeiras",
+      "text": "Bandeiras", 
       "src": "https://tfcuey.vtexassets.com/arquivos/formas-de-pagamento.png?v=637502097776030000",
       "blockClass": "imagem-formas-de-pagamento"
     }
   },
 
+
+
+
+
   "flex-layout.row#developers": {
-    "children": ["image#evision", "image#vtex"],
+    "children": ["image#evision","image#vtex"],
     "props": {
       "text": "evision",
       "blockClass": "footer-aling-center-devs"
@@ -446,9 +592,9 @@
   "image#vtex": {
     "props": {
       "type": "external",
-      "text": "Vtex",
+      "text": "Vtex", 
       "url": "https://vtex.com/br-pt/",
-      "src": "https://tfcuey.vteximg.com.br/arquivos/plataforma-vtex.png?v=637805581281700000",
+      "src":"https://tfcuey.vteximg.com.br/arquivos/plataforma-vtex.png?v=637805581281700000",
       "blockClass": "footer-logo-vtex"
     }
   },
@@ -456,22 +602,35 @@
   "image#evision": {
     "props": {
       "type": "external",
-      "text": "eVision",
+      "text": "eVision", 
       "url": "https://evision.com.br/",
-      "src": "https://tfcuey.vteximg.com.br/arquivos/logo-feito-por-evision.png?v=13221",
+      "src":"https://tfcuey.vteximg.com.br/arquivos/logo-feito-por-evision.png?v=13221",
       "blockClass": "footer-logo-evision"
     }
   },
 
+
   "image#whatsapp-flutuante": {
     "props": {
       "type": "external",
-      "text": "Whatsapp",
+      "text": "Whatsapp", 
       "url": "https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0",
-      "src": "https://tfcuey.vteximg.com.br/arquivos/whatsapp-logo-1.png",
+      "src":"https://tfcuey.vteximg.com.br/arquivos/whatsapp-logo-1.png",
       "blockClass": "whatsapp-flutuante-icon"
     }
   },
+
+
+
+
+
+
+
+
+
+
+
+ 
 
   "footer-layout.mobile": {
     "children": [
@@ -480,27 +639,35 @@
       "flex-layout.row#footer-aviso-desktop",
       "flex-layout.row#footer-5-desktop",
       "flex-layout.row#developers"
+
     ]
   },
 
+
+  
   "flex-layout.row#footer-mobile-area": {
     "children": [
       "flex-layout.col#footer-mobile-area-1",
       "flex-layout.col#footer-mobile-area-2"
+
     ],
     "props": {
       "blockClass": "footer-mobile-divisor-2023"
+
     }
   },
+
 
   "flex-layout.col#footer-mobile-area-1": {
     "children": [
       "rich-text#grupobrmefooter",
       "rich-text#footerhorarios",
       "rich-text#footer"
+
     ],
     "props": {
       "blockClass": "footer-mobile-divisor-2023-area-1"
+
     }
   },
 
@@ -509,9 +676,15 @@
       "social-networks",
       "flex-layout.col#footer-3-desktop-2",
       "rich-text#footeratendimento"
+
     ],
     "props": {
       "blockClass": "footer-mobile-divisor-2023-area-2"
+
     }
   }
+
+
+
+
 }
