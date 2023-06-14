@@ -1,6 +1,3 @@
-:global(.vtex-store-components-3-x-specificationItemSpecifications--especificacao-do-produto-2) h2{    line-height: 40px;color: #009fc2!important;margin-bottom: 0px;  font-weight: 400;  font-size: 30px;}  
-:global(.vtex-store-components-3-x-specificationItemSpecifications--especificacao-do-produto-2) h3{color: #009fc2!important;margin-bottom: 0px;  font-weight: 400;  font-size: 30px;}
-:global(.vtex-store-components-3-x-specificationItemSpecifications--especificacao-do-produto-2) h4{color: #009fc2!important;margin-bottom: 0px;  font-weight: 400;  font-size: 30px;} 
 :global(.vtex-address-form__postalCode-forgottenURL) a {color:#000;    font-size: 12px;}
 :global(.bg-base){    background-color: #F5F5F5;}
 :global(.vtex-rich-text-0-x-paragraph--nossos-conteudos-title){
@@ -3498,7 +3495,6 @@ display: block!important;
 :global(.vtex-search-2-x-searchBanner--myBanner) h2 {    color: #fff;    margin-bottom: 0px;font-size: 30px;
   font-family: 'Noto Serif Display',serif;    margin-top: 15px;
   font-weight: 500;}
-:global(.vtex-store-components-3-x-productDescriptionText) strong {    text-transform: uppercase;line-height: 40px;color: #009fc2!important; margin-bottom: 0px; font-weight: 400;font-size: 30px;}
 
 :global(.descricao-pdp-esq h2){text-align: left;    direction: initial;    padding-left: 15px;}
 :global(.descricao-pdp-esq p){text-align: left;    direction: initial;    padding-left: 15px;}
