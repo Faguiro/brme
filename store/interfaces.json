@@ -2,6 +2,10 @@
   "AgeModalComp": {
     "component": "AgeModal"
   },
+  "CustomComp": {
+    "component": "Custom"
+  },
+
   "pixel.ratrustvox": {
     "component": "index"
   },

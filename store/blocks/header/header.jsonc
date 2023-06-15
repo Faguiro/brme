@@ -52,7 +52,7 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       //"AgeModalComp",
-
+  
       "flex-layout.col#busca-desktop",
       "vtex.menu@2.x:menu#institutional"
     ]
@@ -124,9 +124,6 @@
       "drawer",
       "flex-layout.col#spacer",
       "logo#mobile",
-
-
-      
       //"AgeModalComp",
       "flex-layout.col#spacer",
       "menu-item#favoritos",

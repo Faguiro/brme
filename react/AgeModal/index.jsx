@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react'
 // import { Container } from './styles';
 import './style.global.css'
+
 const AgeModal = () => {
   function OpenPopup() {
     const modalBG = document.getElementById('ModalBG')
     const LocalValidator = localStorage.getItem('popupModal')
+
     if (LocalValidator != 'true') {
       modalBG.classList.add('PopUpModal-Display-Active')
       setTimeout(() => {
@@ -15,6 +17,7 @@ const AgeModal = () => {
 
   function ClosePopUp() {
     const modalBG = document.getElementById('ModalBG')
+
     localStorage.setItem('popupModal', 'true')
     modalBG.classList.remove('PopUpModal-active')
     setTimeout(() => {
@@ -23,8 +26,9 @@ const AgeModal = () => {
   }
 
   useEffect(() => {
-    //OpenPopup()
+    OpenPopup()
   }, [])
+
   return (
     <div id="ModalBG" className="BackgroundComponentPopup">
       <div id="ModalContainer" className="PopupContainer">
