@@ -81,7 +81,7 @@
   },
   "info-card#vinhos-cat-2023": {
     "props": {
-      "imageUrl": "https://tfcuey.vteximg.com.br/arquivos/icone-vinho-brme-2023.png",
+      "imageUrl": "",
       "isFullModeStyle": true,
       "callToActionText": "Vinhos",
       "callToActionUrl": "/gastronomia/vinhos",
@@ -892,7 +892,7 @@
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop":1,
+        "desktop": 1,
         "tablet": 1,
         "phone": 1
       },
@@ -1125,7 +1125,7 @@
   "info-card#tonicas1": {
     "props": {
       "imageUrl": "/arquivos/tonicas-e-xaropes-io-v2.png",
-      "width": 100, "width": 100, //"isFullModeStyle": true,
+      "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",
       "callToActionText": "Tônicas e xaropes para coqueteis",
       "blockClass": "bloco-editoriais",
@@ -1142,7 +1142,6 @@
       "blockClass": "bloco-editoriais",
       "textPosition": "center",
       "textAlignment": "center"
-      
     }
   },
   "info-card#cachacacentenarias": {
@@ -1399,8 +1398,6 @@
       "maxWidth": "100%"
     }
   },
-
-
   "rich-text#shelf-title-ofertas": {
     "props": {
       "text": "## Ofertas:",

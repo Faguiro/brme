@@ -28,14 +28,14 @@
   "image#desktop": {
     "props": {
       "minWidth": "100%",
-      "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/73e3c1c5-6173-469e-95f8-546e2484ef9e___83736b2dc44de9d0a58bc9f431a6eace.png"
+      "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/459f9110-e240-4a40-aa9a-0d1da3ced244___0507bb1746803045e4fef1547052f421.jpg"
     }
   },
 
   "image#phone": {
     "props": {
       "minWidth": "100%",
-      "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/4238bd18-305b-4491-bed7-f945a09b8a7c___304f9287fb5583470bf3e0b851ca41aa.png"
+      "src": "https://tfcuey.vtexassets.com/assets/vtex.file-manager-graphql/images/17da1776-5bf2-462c-a75b-e455931392e8___3ac2d732027602c9e4bdbc321af8432d.jpg"
     }
   },
 
