@@ -171,7 +171,7 @@
 }
 
 :global(.vtex-product-summary-2-x-productNameContainer) {
-  min-height: 70px;
+/*   min-height: 70px; */
 }
 
 :global(.vtex-numeric-stepper__plus-button__text) {
