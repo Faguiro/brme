@@ -4087,6 +4087,20 @@
   }
 }
 
+
+  :global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023-mobile) {
+    text-align: left;
+    display: block;    
+    color:red;
+    margin-left: 13px;
+    font-size: 22px;
+    padding-bottom: 0px;
+    font-family: 'Noto Serif Display',serif;
+    font-weight: 900;
+  }
+  
+
+
 :global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023) {
   border: 1px solid #b48736;
   padding: 8px 6px;

@@ -208,7 +208,7 @@
   "flex-layout.col#footer-3-desktop-2": {
     "children": [
       "menu-item#QuemSomos",
-      "menu-item#Blog",
+      //"menu-item#Blog",
       "menu-item#faqfooter",
       "menu-item#politicafooter"
     ],
@@ -224,7 +224,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "[Central de contato](https://site.brme.com.br/fale-conosco/)",
+      "text": "[Central de contato](https://api.whatsapp.com/send/?phone=%2B5511942207805&text&app_absent=0)",
       "blockClass": "central-atendimento"
     }
   },

@@ -150,12 +150,9 @@
      "vtex.menu@2.x:menu#destilados-mobile",
      "vtex.menu@2.x:menu#azeites-mobile",
      "vtex.menu@2.x:menu#saudebeleza-mobile",
-     "vtex.menu@2.x:menu#chocolate-mobile",
-    
-
+     "vtex.menu@2.x:menu#chocolate-mobile",   
      "menu-item#category-presentes",
-
-
+     "menu-item#clube-brme-menu-2023-mobile",
      "vtex.menu@2.x:menu#sobre-mobile"
     ],
 
@@ -634,13 +631,13 @@
   },
   "children": [
     "menu-item#sobre",
-    "menu-item#sejaumparceiro",
-    "menu-item#blog",
-    "menu-item#perguntaserespostas",
-    "menu-item#nossacomunidade",
-    "menu-item#assinenossomailing",
-    "menu-item#grupowhats",
-    "menu-item#telegrancachaca",
+   // "menu-item#sejaumparceiro",
+    //"menu-item#blog",
+   // "menu-item#perguntaserespostas",
+   // "menu-item#nossacomunidade",
+    //"menu-item#assinenossomailing",
+    //"menu-item#grupowhats",
+    //"menu-item#telegrancachaca",
     "menu-item#instagrambrme"
   ]
 }

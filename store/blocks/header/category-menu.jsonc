@@ -4287,10 +4287,10 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#nossacomunidade",
-      "menu-item#assinenossomailing",
-      "menu-item#grupowhats",
-      "menu-item#telegrancachaca",
+     // "menu-item#nossacomunidade",
+      //"menu-item#assinenossomailing",
+     // "menu-item#grupowhats",
+     // "menu-item#telegrancachaca",
       "menu-item#instagrambrme"
     ]
   },
@@ -4382,6 +4382,25 @@
     "props": {
       "id": "menu-item-category-menu-2023",
       "blockClass": "clube-br-me-menu-2023",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "categoryID": "80",
+        "href": "/clube-br-me",
+        "noFollow": false,
+        "tagTitle": "Clube BR-ME",
+        "text": "Clube BR-ME",
+        "blockClass": "link-menu"
+      }
+    }
+  },
+
+  "menu-item#clube-brme-menu-2023-mobile": {
+    "props": {
+      "id": "menu-item-category-menu-2023-mobile",
+      "blockClass": "presentes",
       "type": "custom",
       "iconId": null,
       "highlight": false,

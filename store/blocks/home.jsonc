@@ -1090,7 +1090,6 @@
   },
   "info-card#azeite": {
     "props": {
-      "width": 100,
       "imageUrl": "/arquivos/azeites-para-crudos-io-v2.png",
       "width": 100, //"isFullModeStyle": true,
       //  "headline": "Black Friday",

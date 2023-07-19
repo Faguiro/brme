@@ -12,16 +12,34 @@
   :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel){background-color:transparent!important;padding-bottom: 35px;}
 
 
-  :global(.vtex-menu-2-x-styledLinkContent--presentes){text-align: center;display: block;}
-
+  :global(.vtex-menu-2-x-styledLinkContent--presentes){
+    text-align: center;
+    display: block;
+  }
 
   :global(.vtex-store-drawer-0-x-childrenContainer)
-  :global(.vtex-menu-2-x-styledLinkContent--presentes){text-align: left;display: block;    margin-left: 13px;
+  :global(.vtex-menu-2-x-styledLinkContent--presentes){
+ text-align: left;
+    display: block;
+    margin-left: 13px;
     font-size: 22px;
     padding-bottom: 0px;
     font-family: 'Noto Serif Display',serif;
     font-weight: 900;
-    font-style: italic;}
+    font-style: italic;
+  }
+  :global(.vtex-store-drawer-0-x-childrenContainer)
+  :global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023-mobile) {
+    text-align: left;
+    display: block;    
+    color:red;
+    margin-left: 13px;
+    font-size: 22px;
+    padding-bottom: 0px;
+    font-family: 'Noto Serif Display',serif;
+    font-weight: 900;
+  }
+  
 
   
   :global(.vtex-flex-layout-0-x-flexRow--beneficios-clube-de-assinaturas)
@@ -1492,7 +1510,10 @@
 
 
 :global(.vtex-product-price-1-x-savings--summary)
-:global(.vtex-product-price-1-x-currencyCode){color:#fff!important;}
+:global(.vtex-product-price-1-x-currencyCode){
+  color:#fff!important;
+  padding-left:3px;
+}
 
 :global(.vtex-product-price-1-x-listPrice--summary){text-align: left;}
 
@@ -1690,7 +1711,23 @@
 :global(.vtex-add-to-cart-button-0-x-buttonText){background-color: #b48736;color:#fff!important;}
 
 
-  :global(.vtex-product-price-1-x-savings--summary){background: #8BC34A;  font-size: 12px;  font-weight: normal;border-radius: 1000px;align-items: center;display: flex;position: absolute; top: -250px; padding: 5px; right: 10px;color: #fff;}
+  :global(.vtex-product-price-1-x-savings--summary){
+    background: #8BC34A;  
+    font-size: 12px;  
+    font-weight: normal;
+    align-items: center;
+    display: flex;
+    position: absolute; 
+    top: -220px;  
+    right: 10px;
+    color: #fff;
+    left: 0;
+    padding: 7px 15px;
+    width: 100%;
+    margin-top: 90px;
+    border-radius: 5px;
+    
+  }
 
 :global(.vtex-store-components-3-x-newsletter){    margin-top: 55px;}
   :global(.vtex-store-components-3-x-newsletter)
