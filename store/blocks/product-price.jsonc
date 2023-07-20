@@ -20,8 +20,9 @@
       "marginTop": 5
     },
     "children": [
-      "product-list-price",
-      "product-price-savings"
+      "product-price-savings",
+      "product-list-price"
+      
     ]
   }
 }

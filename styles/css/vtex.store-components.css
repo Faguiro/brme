@@ -1452,6 +1452,7 @@
 
 
 
+
     :global(.vtex-flex-layout-0-x-flexRow--titulo-nome-colecao-busca-personalizada)
     :global(.vtex-rich-text-0-x-paragraph--titulo){padding: 0px 10px!important;}
     
@@ -1600,6 +1601,18 @@
       :global(.vtex-minicart-2-x-minicartQuantityBadgeDefault){
         right: -1.3rem!important;
       }
+      :global(.vtex-product-price-1-x-savings--summary){
+    background: #8BC34A;  
+    font-size: 12px;  
+    font-weight: normal;
+    position: absolute; 
+    top: -120px !important;     
+    color: #f0f;  
+    padding: 7px 15px;
+    width: max-content; 
+    border-radius: 5px;
+    transform: translateX(-30%) !important;   
+  }
 
 
       }
@@ -1715,19 +1728,18 @@
     background: #8BC34A;  
     font-size: 12px;  
     font-weight: normal;
-    align-items: center;
-    display: flex;
     position: absolute; 
-    top: -220px;  
-    right: 10px;
-    color: #fff;
-    left: 0;
+    top: -130px;     
+    color: #fff;  
     padding: 7px 15px;
-    width: 100%;
-    margin-top: 90px;
+    width: max-content; 
     border-radius: 5px;
-    
+    transform: translateX(-60%);    
   }
+ 
+    
+  
+
 
 :global(.vtex-store-components-3-x-newsletter){    margin-top: 55px;}
   :global(.vtex-store-components-3-x-newsletter)
