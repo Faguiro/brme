@@ -5,7 +5,7 @@
   "CustomComp": {
     "component": "Custom"
   },
-
+ 
   "pixel.ratrustvox": {
     "component": "index"
   },
@@ -23,5 +23,9 @@
   },
   "colt-ratrustvox": {
     "component": "Colt"
+
+  },
+  "insert-PdpFormat": {
+    "component": "PdpFormat"
   }
 }

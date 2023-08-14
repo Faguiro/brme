@@ -20,9 +20,17 @@
       "marginTop": 5
     },
     "children": [
-      "product-price-savings",
+      "product-price-savings#flagPDP",
       "product-list-price"
       
     ]
+  },
+  "product-price-savings#flagPDP": {
+    "props": {
+      "markers": [
+        "discount"
+      ],
+      "blockClass": "flagPDP"
+    }
   }
 }

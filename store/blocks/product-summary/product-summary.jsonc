@@ -4,79 +4,69 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "product-summary-description",
-      
-     "product-rating-inline",
-   //   "product-reviews",
-
-    
+      "flex-layout.row#blocopreco-parcela",
+      "product-rating-inline",
+      //   "product-reviews",
+      "product-price-savings#summary",
       "product-summary-space",
       "product-list-price#summary",
-    //  "flex-layout.row#selling-price-savings",
-    //  "product-installments#summary",
-    "flex-layout.row#blocopreco-parcela",
+      //  "flex-layout.row#selling-price-savings",
+      //  "product-installments#summary",
       "flex-layout.col#botaocomprarshelf"
     ]
   },
-
-
-
-  "flex-layout.row#blocopreco-parcela":{
+  "flex-layout.row#blocopreco-parcela": {
     "children": [
       "flex-layout.col#blocopreco-parcela1",
-      "flex-layout.col#blocopreco-parcela2"],
-      "props": {
-        "blockClass": "valor-vitrine-bloco-2023"
-      }
-
+      "flex-layout.col#blocopreco-parcela2"
+    ],
+    "props": {
+      "blockClass": "valor-vitrine-bloco-2023"
+    }
   },
-
-  "flex-layout.col#blocopreco-parcela1":{
+  "flex-layout.col#blocopreco-parcela1": {
     "children": [
-      "flex-layout.row#selling-price-savings"],
-      "props": {
-        "blockClass": "valor-vitrine-2023"
-      }
-
+      "flex-layout.row#selling-price-savings"
+    ],
+    "props": {
+      "blockClass": "valor-vitrine-2023"
+    }
   },
-  "flex-layout.col#blocopreco-parcela2":{
+  "flex-layout.col#blocopreco-parcela2": {
     "children": [
-      "product-installments#summary"],
-      "props": {
-        "blockClass": "parcela-vitrine-2023"
-      }
-
+      "product-installments#summary"
+    ],
+    "props": {
+      "blockClass": "parcela-vitrine-2023"
+    }
   },
-
-
-
-
-  "flex-layout.col#botaocomprarshelf":{
+  "flex-layout.col#botaocomprarshelf": {
     "children": [
-      "flex-layout.row#botaocomprarshelf"],
-      "props": {
-        "blockClass": "bloco-bt-comprar-quantidade-vitrine"
-      }
-
+      "flex-layout.row#botaocomprarshelf"
+    ],
+    "props": {
+      "blockClass": "bloco-bt-comprar-quantidade-vitrine"
+    }
   },
-
-  "flex-layout.row#botaocomprarshelf":{
+  "flex-layout.row#botaocomprarshelf": {
     "children": [
       "product-summary-quantity",
-      "add-to-cart-button"],
-      "props": {
-        "blockClass": "bloco-bt-comprar-quantidade-vitrine"
-      }
-
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "bloco-bt-comprar-quantidade-vitrine"
+    }
   },
-
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
-    ]
+    ],
+    "props": {
+     "blockClass":"prodsum"
+    }
   },
-
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false,
@@ -84,24 +74,30 @@
       "maxHeight": 300
     }
   },
-
+  
   "vtex.product-highlights@2.x:product-highlights#collection": {
+    "children": [
+      "product-highlight-wrapper"
+    ],
     "props": {
-      "type": "collection"
-    },
-    "children": ["product-highlight-wrapper"]
+      "blockClass":"flag"
+    }
   },
   "product-highlight-wrapper": {
     "props": {
-      "blockClass": "collection"
+      //"blockClass": "collection"
     },
-    "children": ["product-highlight-text"]
+    "children": [
+      "product-highlight-text"
+    ]
   },
   "product-highlight-text": {
     "props": {
       "message": "{highlightName}"
+      // "blockClass": "boleto"
     }
   },
+
 
   "product-list-price#summary": {
     "props": {
@@ -116,8 +112,7 @@
       "marginBottom": 4
     },
     "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
+      "product-selling-price#summary"
     ]
   },
   "product-installments#summary": {

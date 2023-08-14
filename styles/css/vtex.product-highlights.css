@@ -1,12 +1,31 @@
+
+
 .productHighlightWrapper--collection {
-  position: absolute;
-  top: 10px;
-  left: 5px;
-  width: 200px;
+   display:flex;
 }
 
-.productHighlightText {
-  background: antiquewhite;
-  border-radius: 20px;
-  padding: 5px 10px;
+.productHighlightWrapper {
+  display:flex;
 }
+:global(.vtex-product-highlights-2-x-productHighlightText) {
+}
+.productHighlightText {
+ 
+  top: 10px;
+  left: 5px;
+  width: max-content;
+  background: #7a3138;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.productHighlightText--flagPDP{
+  position: absolute;
+  transform: translate(-503px, -37px);
+  z-index: 100;
+}
+
+

@@ -5,7 +5,8 @@ import React, { useEffect } from 'react'
 const Custom = () => {
   function removeSpanStyles() {
     const elements = document.querySelectorAll(
-      '.vtex-store-components-3-x-productDescriptionText.c-muted-1 > *'
+      '.vtex-store-components-3-x-productDescriptionText.c-muted-1 > *',
+      
     )
 
     elements.forEach(element => {

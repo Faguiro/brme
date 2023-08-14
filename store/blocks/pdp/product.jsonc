@@ -8,6 +8,7 @@
       "flex-layout.row#product",
       "flex-layout.row#productcomite",
       //"product-rating-inline.ratrustvox",
+    
       "product-reviews",
       "shelf.relatedProducts",
       "flex-layout.row#buy-together",
@@ -70,7 +71,7 @@
   },
   "vtex.menu@2.x:submenu.accordion#produto": {
     "children": [
-    "__fold__",
+      "__fold__",
       "vtex.menu@2.x:menu#descricaodoproduto"
     ]
   },
@@ -290,6 +291,10 @@
       "displayThumbnailsArrows": true
     }
   },
+
+
+
+
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -297,12 +302,19 @@
     },
     "children": [
       "flex-layout.row#product-name",
+      
       "product-rating-summary.ratrustvox",
+      "vtex.product-highlights@2.x:product-highlights#flagPDP",
       //  "product-reviews",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
+      
+     
       "product-separator",
+      "product-seller-name",
+      //"__fold__",
+      "insert-PdpFormat",
       "product-identifier.product",
       "sku-selector",
       "product-assembly-options",
@@ -315,6 +327,7 @@
       "flex-layout.row#compartilhe"
     ]
   },
+  
   "flex-layout.row#compartilhe": {
     "props": {
       "blockClass": "redes-sociais-pdp"
@@ -331,7 +344,7 @@
   },
   "rich-text#textoconsultarprazo": {
     "props": {
-      "text": "Consulte prazo \n de entrega e frete grátis:",
+      "text": "Consulte prazo de entrega e frete grátis:",
       "blockClass": "text-consulte-prazo"
     }
   },
@@ -378,6 +391,23 @@
         "Twitter": true,
         "Pinterest": false
       }
+    }
+  },
+
+  
+  "vtex.product-highlights@2.x:product-highlights#flagPDP": {
+    "children": [
+  
+      "product-highlight-text#flagPDP"
+    ],
+    "props": {
+      "blockClass":"flagPDP"
+    }
+  },
+  "product-highlight-text#flagPDP": {
+    "props": {
+      "message": "{highlightName}",
+       "blockClass": "flagPDP"
     }
   }
 }

@@ -1,6 +1,11 @@
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
+.vtex-stack-layout-0-x-stackItem.vtex-stack-layout-0-x-stackItem--flag {
+  background-color:red;
+  width:100%;
+  height:100%;
+}
 
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;

@@ -2,6 +2,7 @@
   color: #727273;
   margin-bottom: .25rem;
   font-size: 1rem;
+  transform: translateX(-145px);
 }
 
 .sellingPrice {
@@ -18,10 +19,25 @@
   color: #727273;
   margin-bottom: 1rem;
 }
-
+/* Flag Economize PDP */
 .savings {
-  font-weight: 500;
-  color: #79B03A;
+  /* font-weight: 500;
+  color: #79B03A; */
+ 
+}
+.savings--flagPDP{
+  background: #8bc34a;
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  top: -300%;
+  left: -497px;
+  color: #fff;
+  padding: 7px 15px;
+  width: max-content;
+  border-radius: 5px;
+  margin: 0 auto;
+  z-index: 100;
 }
 
 .sellingPriceValue--summary {
@@ -34,7 +50,7 @@
   background: #8BC34A;
   border-radius: 1000px;
   align-items: center;
-  display: flex;
+  display: flex; 
 }
 
 .savings-discount--summary {
