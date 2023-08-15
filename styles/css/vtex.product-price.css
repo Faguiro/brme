@@ -38,6 +38,9 @@
   border-radius: 5px;
   margin: 0 auto;
   z-index: 100;
+  color:white;
+ 
+  
 }
 
 .sellingPriceValue--summary {
@@ -47,10 +50,19 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
-  border-radius: 1000px;
-  align-items: center;
-  display: flex; 
+  position: relative;
+  width: max-content;
+  background: #8bc34a;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin: 0 auto;
+  top: 247px;
+
+
+
 }
 
 .savings-discount--summary {

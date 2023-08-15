@@ -12,3 +12,8 @@
   width: 100%;
   top: -5px;
 }
+.stackItem--prodsum--summary{
+  width: 100%;
+  top: -5px;
+  display:flex;
+}

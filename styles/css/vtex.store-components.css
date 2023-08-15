@@ -321,6 +321,9 @@
 
 :global(.vtex-store-components-3-x-productBrand) {
   color: #000;
+  display:block;
+  height:3.5rem;
+
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--ficha-do-produto)
@@ -2588,16 +2591,11 @@
 
 
 :global(.vtex-product-price-1-x-savings--summary) {
-  background: #8bc34a;
-  font-size: 12px;
-  font-weight: normal;
-  position: relative;
-  top: -570%; 
-  color: #fff;
-  padding: 7px 15px;
-  width: max-content;
-  border-radius: 5px;
-  margin: 0 auto;
+ 
+ 
+  
+
+ 
 }
 
 :global(.vtex-store-components-3-x-newsletter) {

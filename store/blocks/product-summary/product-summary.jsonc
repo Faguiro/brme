@@ -7,7 +7,7 @@
       "flex-layout.row#blocopreco-parcela",
       "product-rating-inline",
       //   "product-reviews",
-      "product-price-savings#summary",
+      
       "product-summary-space",
       "product-list-price#summary",
       //  "flex-layout.row#selling-price-savings",
@@ -61,7 +61,8 @@
     "children": [
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "modal-trigger#quickview", // Check quickview.jsonc
+      "product-price-savings#summary"
     ],
     "props": {
      "blockClass":"prodsum"

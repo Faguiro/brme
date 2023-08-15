@@ -33,28 +33,48 @@ const PdpFormat = () => {
   }
 
   function insertDiscountDiv() {
+
+
     try {
-      var sellerNameElement = document.querySelector(
-        '.vtex-product-price-1-x-sellerName'
-      )
-      var priceElement = document.querySelector(
-        '.vtex-product-price-1-x-sellingPriceValue'
-      )
-      var installmentsElement = document.querySelector(
-        '.vtex-flex-layout-0-x-flexColChild'
-      )
+      var sellerNameElement = document.querySelector( '.vtex-product-price-1-x-sellerName' )
+      
+      var priceElement = document.querySelector( '.vtex-product-price-1-x-sellingPriceValue' )
+      
+      const motherDiv = priceElement.closest('.vtex-flex-layout-0-x-flexColChild.pb0');
+      const newSiblingDiv = document.createElement('div');
+      newSiblingDiv.className = 'bme10PercentDiscount';
+      motherDiv.parentNode.insertBefore(newSiblingDiv, motherDiv);
+      
+      var installmentsElement = document.querySelector( '.vtex-product-price-1-x-installments' )
+     
       var sellerNameText = sellerNameElement.textContent.trim()
+
       if (sellerNameText.includes('BR-ME')) {
-        var discountDiv = document.createElement('span')
-        discountDiv.style = 'font-size: 13px; color: #7b343b;'
+        var discountDiv =document.createElement('span')
+        discountDiv.setAttribute('id', 'discountDiv')     
+
+        var priceDiscount = document.createElement('span')
+        discountDiv.style = 'font-size: 13px; color: #7b343b; display:block'
+        priceDiscount.style = 'font-size: 30px; color: #7b343b; display:block, font-weight: 700'
+
         var prices = parsePrice(priceElement)
         var discount = porcentagem(prices, 10)
         var discount_format = discount.toFixed(2).replace('.', ',')
-        discountDiv.textContent =
-          'R$ '+ discount_format +' à vista'+ ' no PIX com 10% de desconto'
-        priceElement.parentNode.append(discountDiv, priceElement)
-        discountDiv.parentNode.style =
-          'display: flex; flex-direction: column-reverse;'
+
+        priceDiscount.textContent='R$ '+ discount_format 
+        discountDiv.textContent = ' à vista'+ ' no PIX com 10% de desconto'
+
+        newSiblingDiv.prepend(discountDiv) 
+        newSiblingDiv.prepend(priceDiscount)
+        
+        let textPrice = priceElement.textContent
+        let textInstallments = installmentsElement.textContent
+        installmentsElement.textContent = textPrice + ' ' + textInstallments 
+        installmentsElement.style = 'margin-top:13px; font-size: 13px; color: #7b343b; display:block'      
+              
+        motherDiv.style = 'display:none;'
+
+        //discountDiv.parentNode.style = 'display: flex; flex-direction: column-reverse;'
       }
     } catch (error) {
       console.log(error)
@@ -65,7 +85,7 @@ const PdpFormat = () => {
     replaceSellerText();
   }, [])
 
-  return <script>replaceSellerText();</script>
+  return <></>
 }
 
 export { PdpFormat }
