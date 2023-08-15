@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-// import { Container } from './styles';
-//import './style.global.css'
+import './style.global.css'
 
 const PdpFormat = () => {
   function parsePrice(element) {
@@ -62,19 +61,20 @@ const PdpFormat = () => {
         var discount_format = discount.toFixed(2).replace('.', ',')
 
         priceDiscount.textContent='R$ '+ discount_format 
+        priceDiscount.setAttribute('id', 'priceDiv') 
         discountDiv.textContent = ' à vista'+ ' no PIX com 10% de desconto'
 
         newSiblingDiv.prepend(discountDiv) 
         newSiblingDiv.prepend(priceDiscount)
         
         let textPrice = priceElement.textContent
-        let textInstallments = installmentsElement.textContent
+        let textInstallments = installmentsElement.textContent.toLowerCase()
+        textInstallments = textInstallments.replace('r$','R$')
         installmentsElement.textContent = textPrice + ' ' + textInstallments 
         installmentsElement.style = 'margin-top:13px; font-size: 13px; color: #7b343b; display:block'      
               
         motherDiv.style = 'display:none;'
 
-        //discountDiv.parentNode.style = 'display: flex; flex-direction: column-reverse;'
       }
     } catch (error) {
       console.log(error)
