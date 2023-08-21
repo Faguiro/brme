@@ -301,10 +301,12 @@
       "rowGap": 0
     },
     "children": [
+      "vtex.product-highlights@2.x:product-highlights#flagPDP",
+
       "flex-layout.row#product-name",
       
       "product-rating-summary.ratrustvox",
-      "vtex.product-highlights@2.x:product-highlights#flagPDP",
+      
       //  "product-reviews",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
