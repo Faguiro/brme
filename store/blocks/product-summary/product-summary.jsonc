@@ -6,6 +6,7 @@
       "product-summary-description",
       "flex-layout.row#blocopreco-parcela",
       "product-rating-inline",
+      "product-seller-name",
       //   "product-reviews",
       
       "product-summary-space",
@@ -13,6 +14,8 @@
       //  "flex-layout.row#selling-price-savings",
       //  "product-installments#summary",
       "flex-layout.col#botaocomprarshelf"
+      ,"insert-Shelf-format"
+      
     ]
   },
   "flex-layout.row#blocopreco-parcela": {
@@ -63,6 +66,7 @@
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview", // Check quickview.jsonc
       "product-price-savings#summary"
+      
     ],
     "props": {
      "blockClass":"prodsum"
@@ -114,6 +118,7 @@
     },
     "children": [
       "product-selling-price#summary"
+      
     ]
   },
   "product-installments#summary": {

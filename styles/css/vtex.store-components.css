@@ -1165,7 +1165,7 @@
   border-radius: 5px;
 }
 :global(.vtex-product-price-1-x-sellingPriceValue) {
-  color: #000;
+  color: #7b343b;
 }
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
   background-color: #d2d3d3 !important;
@@ -1192,8 +1192,8 @@
 }
 
 :global(.vtex-product-price-1-x-sellingPrice) {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 :global(.vtex-add-to-cart-button-0-x-buttonText) {
@@ -2208,7 +2208,7 @@
 }
 
 :global(.vtex-product-price-1-x-installments--summary) {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   color: #000;
 }
 

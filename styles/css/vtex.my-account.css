@@ -66,8 +66,8 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--parcela-vitrine-2023) {
-  text-align: right;
-  padding-top: 15px;
+  text-align: left;
+  padding-top: 20px;
 }
 
 :global(.render-route-store-search-category)

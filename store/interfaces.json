@@ -27,5 +27,9 @@
   },
   "insert-PdpFormat": {
     "component": "PdpFormat"
+  },
+
+  "insert-Shelf-format": {
+    "component": "ShelfFormat"
   }
 }

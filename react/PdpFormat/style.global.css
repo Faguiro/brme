@@ -1,6 +1,24 @@
 .vtex-flex-layout-0-x-flexColChild.pb0{
   font-size:13px;
+  
 }
 #priceDiv{
   font-weight: 600;
 }
+.bme10PercentDiscount {
+  padding:10px 0 ;
+  margin: 10px 0;
+}
+.vtex-flex-layout-0-x-flexRowContent{
+  flex-wrap:wrap;
+}
+.vtex-flex-layout-0-x-stretchChildrenWidth{
+  width:100%;
+}
+article.vtex-product-summary-2-x-element {
+  padding-top: 15px;
+}
+.flex.mt0.mb0.pt0.pb0.justify-start.vtex-flex-layout-0-x-flexRowContent.vtex-flex-layout-0-x-flexRowContent--valor-vitrine-bloco-2023.items-stretch.w-100 {
+  flex-direction: column;
+}
+
