@@ -1,3 +1,3 @@
-import { ShelfFormat } from './PdpFormat/index'
+import { ShelfFormat } from './ShelfFormat/index'
 console.log('ShelfFormat!')
 export default ShelfFormat 

@@ -66,13 +66,18 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--parcela-vitrine-2023) {
-  text-align: left;
-  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  font-size: 13px;
+  color: rgb(123, 52, 59);
+  display: block;
 }
 
 :global(.render-route-store-search-category)
   :global(.vtex-flex-layout-0-x-flexColChild--parcela-vitrine-2023) {
-  padding-top: 19px;
+  /* padding-bottom: 20px; */
+  font-size: 13px;
+  color: rgb(123, 52, 59);
+  display: block;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--grupo-brme-title-footer) {
@@ -94,6 +99,7 @@
 :global(#newsletter-input-name) {
   border-radius: 8px !important;
 }
+
 :global(#newsletter-input-email) {
   border-radius: 8px !important;
 }
@@ -171,7 +177,7 @@
 }
 
 :global(.vtex-product-summary-2-x-productNameContainer) {
-/*   min-height: 70px; */
+  /*   min-height: 70px; */
 }
 
 :global(.vtex-numeric-stepper__plus-button__text) {
@@ -3168,7 +3174,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -3196,7 +3202,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -3257,7 +3263,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -3307,7 +3313,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -3335,7 +3341,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -3363,7 +3369,7 @@
   :global(.vtex-product-summary-2-x-element)
   :global(.vtex-product-price-1-x-installments) {
   /*order:7;*/
-  color: #000;
+  /* color: #000; */
   font-family: Roboto, sans-serif;
   font-size: 0px;
   margin-top: 4px;
@@ -4087,19 +4093,16 @@
   }
 }
 
-
-  :global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023-mobile) {
-    text-align: left;
-    display: block;    
-    color:red;
-    margin-left: 13px;
-    font-size: 22px;
-    padding-bottom: 0px;
-    font-family: 'Noto Serif Display',serif;
-    font-weight: 900;
-  }
-  
-
+:global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023-mobile) {
+  text-align: left;
+  display: block;
+  color: red;
+  margin-left: 13px;
+  font-size: 22px;
+  padding-bottom: 0px;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 900;
+}
 
 :global(.vtex-menu-2-x-styledLinkContainer--clube-br-me-menu-2023) {
   border: 1px solid #b48736;

@@ -11,8 +11,8 @@
 }
 
 .sellingPriceValue {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .installments {
@@ -80,10 +80,10 @@
 }
 
 .installments--summary {
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   font-size: 0.875rem;
 }
 .sellerNameContainer--isDefaultSeller{
 
-font-size:0px;
+font-size:13px;
 }
